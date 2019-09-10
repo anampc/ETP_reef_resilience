@@ -1,0 +1,567 @@
+﻿ID1,Reference,Province,Ecoregion,Region,Country,Platform,Thermal_regime,Location,Site,Year,Date,Period_ENOS,Coral_cover,Algal_cover,Lat,Lon
+1,"Reyes-Bonilla, 1999 ",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1991,1/1/91,1983-1997,30.46,,23.368583,-109.416667
+2,"Reyes-Bonilla, 1999 ",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1992,1/1/92,1983-1997,30.46,,23.368583,-109.416667
+3,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Gulf_of_California,1997,1/1/97,1983-1997,28.15,,23.833333,-109.416667
+4,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Gulf_of_California,1998,1/1/98,1998-2016,25.31,,23.833333,-109.416667
+5,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Bahia_Banderas,1997,1/1/97,1983-1997,12.44,,20.616507,-105.42879
+6,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Bahia_Banderas,1998,1/1/98,1998-2016,1.31,,20.616507,-105.42879
+7,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,Oaxaca,1997,1/1/97,1983-1997,48,,15.773396,-96.053582
+8,"Reyes-Bonilla, 2002 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,Oaxaca,1999,1/1/99,1998-2016,0.44,,15.773396,-96.053582
+9,"Robinson, 1992 ",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1991,1/1/91,1983-1997,73.85,23.66,23.368583,-109.416667
+10,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Loreto,2008,1/1/08,1998-2016,0.5,,25.795504,-111.231871
+11,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Portugues,2008,1/1/08,1998-2016,38.1,,24.68758,-110.695293
+12,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Isla_EspIritu_Santo,2008,1/1/08,1998-2016,41.3,,24.390885,-110.355692
+13,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,San_Lorenzo_Channel,2008,1/1/08,1998-2016,81.4,,24.361599,-110.325654
+14,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2008,1/1/08,1998-2016,17,,23.368583,-109.416667
+15,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Loreto,2009,1/1/09,1998-2016,0.5,,25.795504,-111.231871
+16,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Portugues,2009,1/1/09,1998-2016,38.1,,24.68758,-110.695293
+17,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Isla_EspIritu_Santo,2009,1/1/09,1998-2016,41.3,,24.390885,-110.355692
+18,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,San_Lorenzo_Channel,2009,1/1/09,1998-2016,81.4,,24.361599,-110.325654
+19,"Aranceta-Garza, 2012 ",Cortezian,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2009,1/1/09,1998-2016,17,,23.368583,-109.416667
+20,"Reyes-Bonilla, 2013",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Seasonal,Bahia_de_Carrizales,Bahia_de_Carrizales,2005,1/1/05,1998-2016,61,,19.15,-104.733
+21,"Reyes-Bonilla, 2013",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Seasonal,Bahia_de_Carrizales,Bahia_de_Carrizales,2006,1/1/06,1998-2016,61,,19.15,-104.733
+22,"Pérez-Vivar, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias,Maria_Madre,1997,1/1/97,1983-1997,12.23,,21.521268,-106.531557
+23,"Pérez-Vivar, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias, San_Juanito,1997,1/1/97,1983-1997,31.93,,21.743388,-106.649075
+24,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,San_Agustin_Island,2000,1/1/00,1998-2016,63.9,13.6,15.686705,-96.229255
+25,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Jicaral_Chachacual,2000,1/1/00,1998-2016,11.6,45.6,15.697208,-96.213937
+26,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Cacaluta_Island,2000,1/1/00,1998-2016,61.4,9.3,15.719547,-96.161536
+27,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2000,1/1/00,1998-2016,41.2,20.5,15.736167,-96.127782
+28,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Montosa_Island,2000,1/1/00,1998-2016,43.8,1.4,15.763545,-96.08385
+29,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,San_Agustin_Island,2001,1/1/01,1998-2016,63.9,13.6,15.686705,-96.229255
+30,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Jicaral_Chachacual,2001,1/1/01,1998-2016,11.6,45.6,15.697208,-96.213937
+31,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Cacaluta_Island,2001,1/1/01,1998-2016,61.4,9.3,15.719547,-96.161536
+32,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2001,1/1/01,1998-2016,41.2,20.5,15.736167,-96.127782
+33,"Lopez-Perez, 2007 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Montosa_Island,2001,1/1/01,1998-2016,43.8,1.4,15.763545,-96.08385
+34,"Carriquiry, 1997 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Careyeros,1991,1/1/91,1983-1997,44.73,,20.788393,-105.510107
+35,"Guzman, 1987",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1980,1/1/80,1973-1982,17.8,69.5,8.7155,-83.8724
+36,"Guzman, 1987 ",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1984,1/1/84,1983-1997,8.55,52.1,8.7155,-83.8724
+37,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1986,1/1/86,1983-1997,4.3,,8.7155,-83.8724
+38,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1987,1/1/87,1983-1997,4.3,,8.7155,-83.8724
+39,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,3.8,,8.7155,-83.8724
+40,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1988,1/1/88,1983-1997,13.8,,7.955,-82.0125
+41,"Guzman, 1989",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Cruz_Island ,1986,1/1/86,1983-1997,1,,-0.494809,-90.320281
+42,"Guzman, 1989",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,1987,1/1/87,1983-1997,2.6,,5.529243,-87.06205
+43,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1986,1/1/86,1983-1997,28.2,,7.79297,-81.75487
+44,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1986,1/1/86,1983-1997,13.8,,7.955,-82.0125
+45,"Guzman, 1989",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1988,1/1/88,1983-1997,13.8,,7.955,-82.0125
+46,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Señorita_Islands,1987,1/1/87,1983-1997,49.5,,8.443672,-79.106492
+47,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1987,1/1/87,1983-1997,39.5,,8.62595,-79.055038
+48,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pacheca_Islands,1987,1/1/87,1983-1997,1,,8.667788,-79.051066
+49,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Cacaluta_Island,1987,1/1/87,1983-1997,5,,8.592511,-79.018458
+50,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Contadora_Island,1987,1/1/87,1983-1997,15,,8.621906,-79.037179
+51,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1987,1/1/87,1983-1997,48.5,,2.953784,-78.17612
+52,"Guzman, 1989",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1988,1/1/88,1983-1997,48.5,,2.953784,-78.17612
+53,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Isla_ballena,1992,1/1/92,1983-1997,20.52,,9.10684,-83.71319
+54,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Isla_ballena,1994,1/1/94,1983-1997,25.95,,9.10684,-83.71319
+55,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Isla_ballena,1995,1/1/95,1983-1997,25.95,,9.10684,-83.71319
+56,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Isla_ballena,2001,1/1/01,1998-2016,13.72,,9.10684,-83.71319
+57,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Manuel_Antonio,M.Antonio,1992,1/1/92,1983-1997,34.13,,9.372058,-84.15573
+58,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Manuel_Antonio,M.Antonio,1994,1/1/94,1983-1997,52.39,,9.372058,-84.15573
+59,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Manuel_Antonio,M.Antonio,1995,1/1/95,1983-1997,52.39,,9.372058,-84.15573
+60,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Manuel_Antonio,M.Antonio,2001,1/1/01,1998-2016,30.33,,9.372058,-84.15573
+61,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Cambutal,1992,1/1/92,1983-1997,22.83,,9.222367,-83.848505
+62,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Cambutal,1994,1/1/94,1983-1997,25,,9.372058,-84.15573
+63,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Cambutal,1995,1/1/95,1983-1997,25,,9.372058,-84.15573
+64,"Jimenez, 2003",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Cambutal,2001,1/1/01,1998-2016,20.65,,9.372058,-84.15573
+65,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,30.41,,8.7155,-83.8724
+66,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,13.24,,8.7155,-83.8724
+67,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1985,1/1/85,1983-1997,23.27,,7.79297,-81.75487
+68,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1986,1/1/86,1983-1997,22.18,,7.79297,-81.75487
+69,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,6.94,,8.7155,-83.8724
+70,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,18.76,,8.7155,-83.8724
+71,"Guzman, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,17.85,,8.7155,-83.8724
+72,"Glynn, 1988",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1982,1/1/82,1973-1982,41.54,,8.7155,-83.8724
+73,"Glynn, 1988 ",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1984,1/1/84,1983-1997,12.52,,8.7155,-83.8724
+74,"Glynn, 1988",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1982,1/1/82,1973-1982,17.31,,7.79297,-81.75487
+75,"Glynn, 1988",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1984,1/1/84,1983-1997,4.1,,7.79297,-81.75487
+76,"Glynn, 1988",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Taboga_Island,1982,1/1/82,1973-1982,53.94,,8.793191,-79.550422
+77,"Glynn, 1988",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Taboga_Island,1984,1/1/84,1983-1997,5.89,,8.793191,-79.550422
+78,"Glynn, 1988",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Cruz_Island ,1982,1/1/82,1973-1982,48.98,,-0.494809,-90.320281
+79,"Glynn, 1988",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Cruz_Island ,1984,1/1/84,1983-1997,1.46,,-0.494809,-90.320281
+80,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,1996,1/1/96,1983-1997,53.4,,10.631,-85.6476
+81,"Alvarado, 2012 ",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,2009,1/1/09,1998-2016,2.5,,10.631,-85.6476
+82,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,2009,1/1/09,1998-2016,38,,10.631,-85.6476
+83,"Guzman, 2007 ",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,1987,1/1/87,1983-1997,2.99,,5.529243,-87.06205
+84,"Guzman, 2007 ",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2002,1/1/02,1998-2016,22.7,,5.529243,-87.06205
+85,"Alvarado, 2012",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2009,1/1/09,1998-2016,24,,5.529243,-87.06205
+86,"Glynn, 1982",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1980,1/1/80,1973-1982,58.43,,7.955,-82.0125
+87,"Glynn, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Panama_Bight,Señorita_Islands,1971,1/1/71,1971-1972,25,,7.955,-82.0125
+88,"Glynn, 1985",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1981,1/1/81,1973-1982,45,,7.79297,-81.75487
+89,"Guzmán, 1991",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Panama_Bight,Iguana_Island,1989,1/1/89,1983-1997,36.7,,7.627481,-80.000247
+90,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1984,1/1/84,1983-1997,5,,7.79297,-81.75487
+91,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1985,1/1/85,1983-1997,6.87,,7.79297,-81.75487
+92,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1986,1/1/86,1983-1997,8.62,,7.79297,-81.75487
+93,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1987,1/1/87,1983-1997,8.72,,7.79297,-81.75487
+94,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1988,1/1/88,1983-1997,10.47,,7.79297,-81.75487
+95,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1989,1/1/89,1983-1997,7.75,,7.79297,-81.75487
+96,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1990,1/1/90,1983-1997,8.91,,7.79297,-81.75487
+97,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1992,1/1/92,1983-1997,11.35,,7.79297,-81.75487
+98,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1993,1/1/93,1983-1997,11.34,,7.79297,-81.75487
+99,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1994,1/1/94,1983-1997,7.21,,7.79297,-81.75487
+100,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1995,1/1/95,1983-1997,13.9,,7.79297,-81.75487
+101,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1997,1/1/97,1983-1997,13.63,,7.79297,-81.75487
+102,"Glynn, 1988",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1998,1/1/98,1998-2016,13.26,,7.79297,-81.75487
+103,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2000,1/1/00,1998-2016,16.18,,7.79297,-81.75487
+104,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2001,1/1/01,1998-2016,14.4,,7.79297,-81.75487
+105,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2002,1/1/02,1998-2016,23.44,,7.79297,-81.75487
+106,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2003,1/1/03,1998-2016,25.31,,7.79297,-81.75487
+107,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2004,1/1/04,1998-2016,28,,7.79297,-81.75487
+108,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2005,1/1/05,1998-2016,27.4,,7.79297,-81.75487
+109,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2006,1/1/06,1998-2016,30.91,,7.79297,-81.75487
+110,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2007,1/1/07,1998-2016,29.72,,7.79297,-81.75487
+111,"Glynn, 2014",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2010,1/1/10,1998-2016,34.97,,7.79297,-81.75487
+112,"Glynn, 1976",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1974,1/1/74,1973-1982,13.1,,7.79297,-81.75487
+113,"Glynn, 1976 ",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1974,1/1/74,1973-1982,68.7,,7.955,-82.0125
+114," Glynn, 1982 ",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1976,1/1/76,1973-1982,16.5,,7.955,-82.0125
+115,"Glynn, 1982",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1979,1/1/79,1973-1982,13.1,,7.79297,-81.75487
+117,"Glynn, 2014 ",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2010,1/1/10,1998-2016,30,,7.79297,-81.75487
+118,"Glynn, 1976",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1974,1/1/74,1973-1982,28.8,,8.62595,-79.055038
+119,"Glynn, 1976",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1975,1/1/75,1973-1982,18.35,,8.62595,-79.055038
+120,"Garzón-Ferreira, 1999 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,El_Arrecife,1999,1/1/99,1998-2016,28.86,,4.003333,-81.607222
+121,"Palacios, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2012,1/1/12,1998-2016,49.6,,2.953784,-78.17612
+122,"Glynn, 1982 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1980,1/1/80,1973-1982,36.52,,2.953784,-78.17612
+123,"Guzman Hector, 1991",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Playa_Blanca,1989,1/1/89,1983-1997,32.6,,2.953784,-78.17612
+124,"Guzman Hector, 1991 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1989,1/1/89,1983-1997,50.2,,2.953784,-78.17612
+125,"Garzón-Ferreira, 2000 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1998,1/1/98,1998-2016,66.59,19.76,2.953784,-78.17612
+126,"Garzón-Ferreira, 2000 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1999,1/1/99,1998-2016,64.39,19.02,2.953784,-78.17612
+127,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2000,1/1/00,1998-2016,80.49,6.59,2.953784,-78.17612
+128,"Zapata, 2010 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1998,1/1/98,1998-2016,62.54,36,2.953784,-78.17612
+129,"Zapata, 2010 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1999,1/1/99,1998-2016,56.11,43,2.953784,-78.17612
+130,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2000,1/1/00,1998-2016,65.99,36,2.953784,-78.17612
+131,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2001,1/1/01,1998-2016,55.17,45,2.953784,-78.17612
+132,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2002,1/1/02,1998-2016,57.05,42,2.953784,-78.17612
+133,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2003,1/1/03,1998-2016,55.64,48,2.953784,-78.17612
+134,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2004,1/1/04,1998-2016,55.49,47,2.953784,-78.17612
+135,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1992,1/1/92,1983-1997,56,36,2.953784,-78.17612
+136,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1995,1/1/95,1983-1997,70,26,2.953784,-78.17612
+137,"Zapata, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1996,1/1/96,1983-1997,57,42,2.953784,-78.17612
+139,"INVEMAR, 2005",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2004,1/1/04,1998-2016,74.52,17.4,2.953784,-78.17612
+140,"INVEMAR, 2005",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2005,1/1/05,1998-2016,63.35,24.21,2.953784,-78.17612
+141,"Vargas-Angel, 1996 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Chola_reef,1988,1/1/88,1983-1997,32.4,,5.992011,-77.344737
+142,"Vargas-Angel, 1996 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Chola_reef,1989,1/1/89,1983-1997,32.4,,5.992011,-77.344737
+143,"Rodríguez-Ramírez, 2006 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2003,1/1/03,1998-2016,74.3,17.3,2.953784,-78.17612
+144,"Rodríguez-Ramírez, 2006",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2003,1/1/03,1998-2016,49.6,49.6,4.003333,-81.607222
+145,"Glynn, 2009 ",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Darwin_Island,2007,1/1/07,1998-2016,21.1,,1.655556,-92.008333
+146,"Edgar, 2010",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Northern ,2004,1/1/04,1998-2016,5.8,2.6,0.400342,-90.376965
+147,"Edgar, 2010 ",Galapagos,Western_Galapagos_Islands,Western_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Central,2004,1/1/04,1998-2016,2.3,3.3,-0.408688,-90.170396
+148,"Edgar, 2010 ",Galapagos,Western_Galapagos_Islands,Western_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Western,2004,1/1/04,1998-2016,0.02,14.9,-0.684512,-91.631787
+149,"Glynn, 1983",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,San_Cristobal_Island,1975,1/1/75,1973-1982,20,,-0.749502,-89.453331
+150,"Glynn, 1983",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,La_Espanola,1976,1/1/76,1973-1982,37.4,,-1.352008,-89.653074
+151,"Glynn, 1983",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,1975,1/1/75,1973-1982,36.3,,-1.232258,-90.453986
+152,"Glynn, 1983",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_Island,1976,1/1/76,1973-1982,47.9,,-0.802377,-90.038025
+153,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1978,1/1/78,1973-1982,18.06,,7.79297,-81.75487
+154,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1982,1/1/82,1973-1982,18.06,,7.79297,-81.75487
+155,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1983,1/1/83,1983-1997,1.2,,7.79297,-81.75487
+156,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1983,1/1/83,1983-1997,1,,7.79297,-81.75487
+157,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1978,1/1/78,1973-1982,16.5,,7.79297,-81.75487
+158,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1980,1/1/80,1973-1982,16.5,,7.79297,-81.75487
+159,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1983,1/1/83,1983-1997,5.7,,7.955,-82.0125
+160,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1983,1/1/83,1983-1997,5.1,,7.955,-82.0125
+161,"Glynn, 1983",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1983,1/1/83,1983-1997,5.9,,8.62595,-79.055038
+162,"Glynn, 1983",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Chapera_Islands,1983,1/1/83,1983-1997,1.1,,8.592511,-79.018458
+163,"Glynn, 1983",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Contadora_Island,1983,1/1/83,1983-1997,3.4,,8.621906,-79.037179
+164,"Alvarado, 2016 ",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2013,1/1/13,1998-2016,36.6,12.57,5.529243,-87.06205
+165,"Alvarado, 2016 ",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2014,1/1/14,1998-2016,36.6,12.57,5.529243,-87.06205
+166,"Guzman, 1992 ",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Punta_Presidio,1987,1/1/87,1983-1997,3.47,,5.550755,-87.061218
+167,"Garzon-Ferreira, 2004",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,1992,1/1/92,1983-1997,3.5,,5.529243,-87.06205
+168,"Garzón-Ferreira, 2000 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1979,1/1/79,1973-1982,70,,2.953784,-78.17612
+169,"Garzón-Ferreira, 2000 ",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1983,1/1/83,1983-1997,15,,2.953784,-78.17612
+170,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1989,1/1/89,1983-1997,50,,2.953784,-78.17612
+171,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1995,1/1/95,1983-1997,78,,2.953784,-78.17612
+172,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1999,1/1/99,1998-2016,56,39,2.953784,-78.17612
+173,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,1972,1/1/72,1971-1972,65,,4.003333,-81.607222
+174,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,1999,1/1/99,1998-2016,45,,4.003333,-81.607222
+175,"Garzón-Ferreira, 2000",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Ensenada_de_Utria,1996,1/1/96,1983-1997,33,,5.992011,-77.344737
+176,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Isla_San_Pedrillo_Islas_Murcielago,1995,1/1/95,1983-1997,87.38,0.63,10.875,-85.932
+177,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Isla_San_Pedrillo_Islas_Murcielago,1996,1/1/96,1983-1997,88.01,0.63,10.875,-85.932
+178,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Isla_San_Pedrillo_Islas_Murcielago,1997,1/1/97,1983-1997,71.92,4.1,10.875,-85.932
+179,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Isla_San_Pedrillo_Islas_Murcielago,2001,1/1/01,1998-2016,87.38,0.95,10.875,-85.932
+180,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,1994,1/1/94,1983-1997,57.41,,10.631,-85.6476
+181,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,1997,1/1/97,1983-1997,29.97,,10.631,-85.6476
+182,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,1998,1/1/98,1998-2016,41.58,,10.631,-85.6476
+183,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,2001,1/1/01,1998-2016,47.64,,10.631,-85.6476
+184,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,2003,1/1/03,1998-2016,43.27,,10.631,-85.6476
+185,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Culebra,2005,1/1/05,1998-2016,48.32,,10.631,-85.6476
+186,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,1992,1/1/92,1983-1997,21.5,,9.1449,-83.7627
+187,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,1994,1/1/94,1983-1997,26,,9.1449,-83.7627
+188,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2001,1/1/01,1998-2016,12,,9.1449,-83.7627
+189,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2003,1/1/03,1998-2016,6,,9.1449,-83.7627
+190,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2004,1/1/04,1998-2016,6.8,,9.1449,-83.7627
+191,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2005,1/1/05,1998-2016,7.8,,9.1449,-83.7627
+192,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Rocas_las_tres_hermanas,2003,1/1/03,1998-2016,40.5,,9.10336,-83.717787
+193,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Rocas_las_tres_hermanas,2004,1/1/04,1998-2016,38,,9.10336,-83.717787
+194,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Rocas_las_tres_hermanas,2005,1/1/05,1998-2016,41,,9.10336,-83.717787
+195,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Sandalo_Reef,1992,1/1/92,1983-1997,29,,8.57821,-83.330269
+196,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Sandalo_Reef,1996,1/1/96,1983-1997,17,,8.57821,-83.330269
+197,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Islotes,1992,1/1/92,1983-1997,2,,8.723205,-83.385535
+198,"Cortés, 2010",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Islotes,1996,1/1/96,1983-1997,10,,8.723205,-83.385535
+199,"Fonseca, 2006 ",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1992,1/1/92,1983-1997,30,,8.7155,-83.8724
+200,"Fonseca, 2006 ",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Sandalo_Reef,1992,1/1/92,1983-1997,27,,8.57821,-83.330269
+201,"Fonseca, 2006",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Islotes,1992,1/1/92,1983-1997,2,,8.723205,-83.385535
+202,"Fonseca, 2006",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1996,1/1/96,1983-1997,24.35,,8.7155,-83.8724
+203,"Fonseca, 2006",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Sandalo_Reef,1996,1/1/96,1983-1997,16.72,,8.57821,-83.330269
+204,"Fonseca, 2006",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Islotes,1996,1/1/96,1983-1997,9.94,,8.723205,-83.385535
+205,"Carriquiry, 1997 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Punta_Mita,1991,1/1/91,1983-1997,32.7,,20.772027,-105.543675
+206,"Cupul Magaña, 2015 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Isla_Isabel,Isla_Isabel,2013,1/1/13,1998-2016,12.2,,21.842023,-105.882884
+207,"Cupul Magaña, 2015 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Islas_Marietas,2013,1/1/13,1998-2016,12.5,,20.699306,-105.699319
+208,"Cupul Magaña, 2015",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Isla_Isabel,Isla_Isabel,2014,1/1/14,1998-2016,3.81,,21.842023,-105.882884
+209,"Cupul Magaña, 2015",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Islas_Marietas,2014,1/1/14,1998-2016,11.81,,20.699306,-105.699319
+210,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Isla_Isabel,Isla_Isabel,2011,1/1/11,1998-2016,10.51,,21.842023,-105.882884
+211,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Islas_Marietas,2011,1/1/11,1998-2016,13.04,,20.699306,-105.699319
+212,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Chamela,Bahia_Chamela,2010,1/1/10,1998-2016,15.22,,19.561787,-105.121292
+213,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Seasonal,Bahia_de_Carrizales,Bahia_Cuastecomates_Punta_Melaque,2010,1/1/10,1998-2016,39.13,,19.225426,-104.820301
+214,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Colima,Bahia_Ceniceros,2010,1/1/10,1998-2016,28.62,,19.071631,-104.423454
+215,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Colima,Bahia_Santiago,2010,1/1/10,1998-2016,10.87,,19.09452,-104.38605
+216,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Michoacan,Isla_Faro,2010,1/1/10,1998-2016,6.16,,18.339884,-103.513164
+217,"Hernández-Zulueta, 2017",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Caleta_de_Campos,Caleta_de_Campos,2010,1/1/10,1998-2016,1.81,,18.068062,-102.748614
+218,"López-Pérez, 2015 ",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias,San_Juanito ,2007,1/1/07,1998-2016,18.67,,21.743388,-106.649075
+219,"López-Pérez, 2015",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias,Maria_Madre,2007,1/1/07,1998-2016,27.29,,21.521268,-106.531557
+220,"López-Pérez, 2015",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias,Magdalena ,2007,1/1/07,1998-2016,6.31,,21.454022,-106.317313
+221,"López-Pérez, 2015",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Oceanic,Seasonal,Islas_Marias,Cleofas,2007,1/1/07,1998-2016,38.28,,21.263745,-106.219987
+222,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Morro_de_Cerro_Colorado ,2009,1/1/09,1998-2016,31.58,2.92,17.681018,-101.659519
+223,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Nudista,2009,1/1/09,1998-2016,79.53,0.58,17.665053,-101.642203
+224,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Zacatoso ,2009,1/1/09,1998-2016,64.33,4.09,17.655699,-101.622449
+225,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,El_Chato,2009,1/1/09,1998-2016,26.9,1.17,17.647913,-101.621111
+226,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Caleta_de_Chon ,2009,1/1/09,1998-2016,41.52,16.37,17.612258,-101.555725
+227,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Manzanillo,2009,1/1/09,1998-2016,59.06,10.53,17.622973,-101.516327
+228,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Morros_de_Potosi,2009,1/1/09,1998-2016,18.13,35.67,17.532604,-101.494172
+229,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,El_Jardin,2009,1/1/09,1998-2016,0.58,91.81,16.823666,-99.916093
+230,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,Las_Palmitas,2009,1/1/09,1998-2016,1.75,85.96,16.823927,-99.912524
+231,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,El_Ripial,2009,1/1/09,1998-2016,4.09,76.02,16.822049,-99.900564
+232,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,Hierbabuena,2009,1/1/09,1998-2016,0.58,90.06,16.824202,-99.898967
+233,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,Hawaii_5.0,2009,1/1/09,1998-2016,11.7,82.46,16.821424,-99.897923
+234,"López-Pérez, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Acapulco,Punta_Bufadora,2009,1/1/09,1998-2016,1.17,94.74,16.819526,-99.902401
+235,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,1978,1/1/78,1973-1982,0.7,,10.621859,-85.662063
+236,"Glynn, 1983 ",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Cabo_Santa_Elena,1978,1/1/78,1973-1982,1.1,,10.899456,-85.937834
+237,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1980,1/1/80,1973-1982,7.5,,7.79297,-81.75487
+238,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1980,1/1/80,1973-1982,29,,8.013943,-82.152346
+239,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1972,1/1/72,1971-1972,12.4,,8.069903,-82.201558
+240,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1972,1/1/72,1971-1972,42,,8.069903,-82.201558
+241,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas_Islands,1974,1/1/74,1973-1982,18.5,,7.955,-82.0125
+242,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,13.1,,8.069903,-82.201558
+243,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,11.3,,8.069903,-82.201558
+244,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,77.4,,8.069903,-82.201558
+245,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,35.9,,8.069903,-82.201558
+246,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,71,,8.069903,-82.201558
+247,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,66.9,,8.069903,-82.201558
+248,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,13,,8.069903,-82.201558
+249,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,6.9,,8.069903,-82.201558
+250,"Glynn, 1983",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1974,1/1/74,1973-1982,10.9,,8.62595,-79.055038
+251,"Glynn, 1983",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Costa_Rica,Continental,Thermally_Stable,Gulf_of_Chiriqui,Gulf_of_Chiriqui,1974,1/1/74,1973-1982,27.3,,8.069903,-82.201558
+252,"López-Pérez, 2016 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Ixtapa_Zihuatanejo,2009,1/1/09,1998-2016,57.04,3.68,17.62719,-101.658147
+253,"López-Pérez, 2016 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Puerto_Angel,Puerto_Angel,2009,1/1/09,1998-2016,13.4,0.15,15.656853,-96.495393
+254,"López-Pérez, 2016 ",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Bahias_de_Huatulco,Bahias_de_Huatulco,2009,1/1/09,1998-2016,70.95,9.5,15.749734,-96.100125
+255,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1998,1/1/98,1998-2016,67.69,21.54,2.953784,-78.17612
+256,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,1999,1/1/99,1998-2016,65.13,20.51,2.953784,-78.17612
+257,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2000,1/1/00,1998-2016,78.46,9.74,2.953784,-78.17612
+258,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2001,1/1/01,1998-2016,74.36,9.23,2.953784,-78.17612
+259,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2002,1/1/02,1998-2016,73.33,13.33,2.953784,-78.17612
+260,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2003,1/1/03,1998-2016,68.21,18.46,2.953784,-78.17612
+261,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2004,1/1/04,1998-2016,64.62,21.54,2.953784,-78.17612
+262,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2005,1/1/05,1998-2016,59.49,24.62,2.953784,-78.17612
+263,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2006,1/1/06,1998-2016,61.54,18.46,2.953784,-78.17612
+264,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2007,1/1/07,1998-2016,63.08,24.1,2.953784,-78.17612
+265,"INVEMAR, 2010",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2009,1/1/09,1998-2016,62.05,22.56,2.953784,-78.17612
+266,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2003,1/1/03,1998-2016,49.99,41.947,4.003333,-81.607222
+267,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2006,1/1/06,1998-2016,47.58,42.075,4.003333,-81.607222
+268,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2007,1/1/07,1998-2016,46.35,43.81,4.003333,-81.607222
+269,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2008,1/1/08,1998-2016,50.2,47.239,4.003333,-81.607222
+270,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2009,1/1/09,1998-2016,46.43,43.048,4.003333,-81.607222
+271,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2010,1/1/10,1998-2016,49.02,46.477,4.003333,-81.607222
+272,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2011,1/1/11,1998-2016,46.52,53.291,4.003333,-81.607222
+273,"INVEMAR, 2014",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Oceanic,Upwelling,Malpelo_Island,Malpelo_Island,2012,1/1/12,1998-2016,34.71,56.72,4.003333,-81.607222
+274,"INVEMAR, 2007",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,Gorgona_Island,2006,1/1/06,1998-2016,62.11,27.36,2.953784,-78.17612
+275,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1984,1/1/84,1983-1997,31.91,,8.7155,-83.8724
+276,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1984,1/1/84,1983-1997,31.32,,8.7155,-83.8724
+277,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,28.24,,8.7155,-83.8724
+278,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1985,1/1/85,1983-1997,10.7,,8.7155,-83.8724
+279,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1987,1/1/87,1983-1997,6.98,,8.7155,-83.8724
+280,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1989,1/1/89,1983-1997,8.85,,8.7155,-83.8724
+281,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1992,1/1/92,1983-1997,8.38,,8.7155,-83.8724
+282,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1996,1/1/96,1983-1997,9.85,,8.7155,-83.8724
+283,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1998,1/1/98,1998-2016,11.67,,8.7155,-83.8724
+284,"Guzman, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,1999,1/1/99,1998-2016,9.41,,8.7155,-83.8724
+285,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Careyeros,1997,1/1/97,1983-1997,22.1,,20.788393,-105.510107
+286,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Punta_Mita,1997,1/1/97,1983-1997,32.79,,20.772027,-105.543675
+287,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Caletitas,1997,1/1/97,1983-1997,8.15,,20.547694,-105.294307
+288,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Majahuitas,1997,1/1/97,1983-1997,3.44,,20.514687,-105.332955
+289,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Paredon,1997,1/1/97,1983-1997,5.27,,20.509923,-105.362458
+290,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Yelapa,1997,1/1/97,1983-1997,5.24,,20.495588,-105.451298
+291,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chocota,1997,1/1/97,1983-1997,2.71,,20.491589,-105.538068
+292,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,1997,1/1/97,1983-1997,2.52,,20.47878,-105.596017
+293,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Las_Iglesias,1997,1/1/97,1983-1997,1.66,,20.4384,-105.653849
+294,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Careyeros,1998,1/1/98,1998-2016,0.99,,20.788393,-105.510107
+295,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Punta_Mita,1998,1/1/98,1998-2016,0.81,,20.772027,-105.543675
+296,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Caletitas,1998,1/1/98,1998-2016,1.96,,20.547694,-105.294307
+297,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Majahuitas,1998,1/1/98,1998-2016,1.27,,20.514687,-105.332955
+298,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Paredon,1998,1/1/98,1998-2016,2.08,,20.509923,-105.362458
+299,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Yelapa,1998,1/1/98,1998-2016,2.73,,20.495588,-105.451298
+300,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chocota,1998,1/1/98,1998-2016,0.7,,20.491589,-105.538068
+301,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,1998,1/1/98,1998-2016,1.35,,20.47878,-105.596017
+302,"Carriquiry, 2001",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Las_Iglesias,1998,1/1/98,1998-2016,0.99,,20.4384,-105.653849
+303,"Nava, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Michoacan,El_Zapote,1997,1/1/97,1983-1997,7.8,83.5,18.388375,-103.529075
+304,"Nava, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Michoacan,Isla_Faro,1997,1/1/97,1983-1997,23.8,50,18.339884,-103.513164
+305,"Nava, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Caleta_de_Chon ,1997,1/1/97,1983-1997,67.7,25.9,17.614667,-101.554528
+306,"Nava, 2012",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Playa_Manzanillo,1997,1/1/97,1983-1997,35.2,50,17.620803,-101.524802
+307,"Glynn, 2012",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,La_Espanola,2004,1/1/04,1998-2016,9.93,,-1.352008,-89.653074
+308,"Glynn, 2012",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,La_Espanola,2011,1/1/11,1998-2016,14.57,,-1.352008,-89.653074
+309,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Pajaro,2002,1/1/02,1998-2016,71.3,27,7.867978,-81.775618
+310,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Brincanco_Este,2002,1/1/02,1998-2016,48.9,50.7,7.863504,-81.783279
+311,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Sin_Nombre_Este,2002,1/1/02,1998-2016,64,34.2,7.842277,-81.751622
+312,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Uvita_Arriba,2002,1/1/02,1998-2016,58.4,41.2,7.817738,-81.737785
+313,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Uvita_Media,2002,1/1/02,1998-2016,76.1,23.1,7.812888,-81.738548
+314,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,2002,1/1/02,1998-2016,53.9,45.7,7.79297,-81.75487
+315,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Canal_Afuera_Sureste,2002,1/1/02,1998-2016,1.2,98,7.699735,-81.615144
+316,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Canal_Afuera_Sureste,2002,1/1/02,1998-2016,2.2,96.6,7.690461,-81.611412
+317,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Canal_Afuera_Norte,2002,1/1/02,1998-2016,38.9,60.7,7.688338,-81.632323
+318,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Rancheria_Suroeste,2002,1/1/02,1998-2016,31.9,67.1,7.641598,-81.691582
+319,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Granito_de_Oro,2002,1/1/02,1998-2016,26.4,72.6,7.593374,-81.712232
+320,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Coiba_Noreste,2002,1/1/02,1998-2016,54.4,41.5,7.631836,-81.735014
+321,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Punta_Damas,2002,1/1/02,1998-2016,27.6,66.2,7.543117,-81.679035
+322,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Punta_Felipa_(Damas),2003,1/1/03,1998-2016,26.1,73.9,7.423908,-81.697575
+323,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Ensenada_Maria_(Damas),2003,1/1/03,1998-2016,17,82.6,7.394096,-81.647706
+324,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Barca,2003,1/1/03,1998-2016,22.9,76.9,7.320094,-81.673613
+325,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Punta_Cirilo,2003,1/1/03,1998-2016,40.2,59.8,7.585548,-81.834013
+326,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Ensenada_Baltazar,2003,1/1/03,1998-2016,15.3,80.5,7.646407,-81.75869
+327,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Jicaron_Este,2003,1/1/03,1998-2016,30.9,69.1,7.240225,-81.801014
+328,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Jicarita_Este,2003,1/1/03,1998-2016,44.9,55,7.231781,-81.798428
+329,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Isla_Jicaron_Noroeste,2003,1/1/03,1998-2016,30.5,66.5,7.293788,-81.818791
+330,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Montuosa_Norte,2003,1/1/03,1998-2016,20.4,78.7,7.476543,-82.240575
+331,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Montuosa_Sureste,2003,1/1/03,1998-2016,43.4,51.2,7.466143,-82.245603
+332,"Guzman, 2004",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Montuosa_Oeste,2003,1/1/03,1998-2016,56.6,56.6,7.466252,-82.231179
+333,"Fong, 2017",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Darwin_Island,1982,1/1/82,1973-1982,4.02,,1.655556,-92.008333
+334,"Fong, 2017",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Darwin_Island,1992,1/1/92,1983-1997,9.94,,1.655556,-92.008333
+335,"Fong, 2017",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Darwin_Island,2012,1/1/12,1998-2016,29.35,,1.655556,-92.008333
+336,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,1974,1/1/74,1973-1982,36.82,,-1.232258,-90.453986
+337,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,1987,1/1/87,1983-1997,0,,-1.232258,-90.453986
+338,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,1993,1/1/93,1983-1997,1.82,,-1.232258,-90.453986
+339,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,2001,1/1/01,1998-2016,0.45,,-1.232258,-90.453986
+340,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,2002,1/1/02,1998-2016,0.91,,-1.232258,-90.453986
+341,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Floreana_Island,2008,1/1/08,1998-2016,4.09,,-1.232258,-90.453986
+342,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_San_Cristobal,1974,1/1/74,1973-1982,19.55,,-0.802377,-90.038025
+343,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_San_Cristobal,1975,1/1/75,1973-1982,36.36,,-0.802377,-90.038025
+344,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_San_Cristobal,1989,1/1/89,1983-1997,0,,-0.802377,-90.038025
+345,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_San_Cristobal,1993,1/1/93,1983-1997,0,,-0.802377,-90.038025
+346,"Fong, 2017",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Galapagos_Islands ,Santa_Fe_San_Cristobal,2008,1/1/08,1998-2016,0,,-0.802377,-90.038025
+347,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1983,1/1/83,1983-1997,3.76,,8.62595,-79.055038
+348,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1984,1/1/84,1983-1997,1.42,,8.62595,-79.055038
+349,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1986,1/1/86,1983-1997,12.08,,8.62595,-79.055038
+350,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1988,1/1/88,1983-1997,16.05,,8.62595,-79.055038
+351,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1989,1/1/89,1983-1997,27.09,,8.62595,-79.055038
+352,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1991,1/1/91,1983-1997,43.26,,8.62595,-79.055038
+353,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1992,1/1/92,1983-1997,46.03,,8.62595,-79.055038
+354,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1993,1/1/93,1983-1997,43.29,,8.62595,-79.055038
+355,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1994,1/1/94,1983-1997,51.96,,8.62595,-79.055038
+356,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1995,1/1/95,1983-1997,50.8,,8.62595,-79.055038
+357,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1996,1/1/96,1983-1997,48.85,,8.62595,-79.055038
+358,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1997,1/1/97,1983-1997,59.89,,8.62595,-79.055038
+359,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1998,1/1/98,1998-2016,39.43,,8.62595,-79.055038
+360,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,1999,1/1/99,1998-2016,49.68,,8.62595,-79.055038
+361,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,2000,1/1/00,1998-2016,26.08,,8.62595,-79.055038
+362,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,2001,1/1/01,1998-2016,31.21,,8.62595,-79.055038
+363,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,2002,1/1/02,1998-2016,33.19,,8.62595,-79.055038
+364,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,2003,1/1/03,1998-2016,32.03,,8.62595,-79.055038
+365,"Fong, 2017",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Saboga_Island,2004,1/1/04,1998-2016,41.49,,8.62595,-79.055038
+366,"Glynn, 1996",Tropical_East_Pacific,Clipperton,Clipperton,France,Oceanic,Thermally_Stable,Clipperton,Clipperton,1994,1/1/94,1983-1997,52.2,,10.316434,-109.234092
+367,"Ochoa-López, 1998",Tropical_East_Pacific,Revillagigedo_Islands,Revillagigedo_Islands,Mexico,Oceanic,Seasonal,Revillagigedo_Islands,Socorro_Island,1993,1/1/93,1983-1997,35,,18.729385,-110.957234
+368,"Ochoa-López, 1998",Tropical_East_Pacific,Revillagigedo_Islands,Revillagigedo_Islands,Mexico,Oceanic,Seasonal,Revillagigedo_Islands,Socorro_Island,1994,1/1/94,1983-1997,7.5,,18.729385,-110.957234
+369,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1987,1/1/87,1983-1997,61.94,,23.368583,-109.416667
+370,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1988,1/1/88,1983-1997,48.01,,23.368583,-109.416667
+371,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1989,1/1/89,1983-1997,31.88,,23.368583,-109.416667
+372,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1991,1/1/91,1983-1997,29.87,,23.368583,-109.416667
+373,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1993,1/1/93,1983-1997,30.97,,23.368583,-109.416667
+374,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1997,1/1/97,1983-1997,40.86,,23.368583,-109.416667
+375,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,1998,1/1/98,1998-2016,41.6,,23.368583,-109.416667
+376,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2002,1/1/02,1998-2016,19.79,,23.368583,-109.416667
+377,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2003,1/1/03,1998-2016,11.73,,23.368583,-109.416667
+378,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2003,1/1/03,1998-2016,11.73,,23.368583,-109.416667
+379,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Islas_Marietas,2002,1/1/02,1998-2016,29.57,,20.70084,-105.577392
+380,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Careyeros,2002,1/1/02,1998-2016,2.57,,20.788393,-105.510107
+381,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Guayabitos,2002,1/1/02,1998-2016,0.21,,20.616507,-105.42879
+382,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,2002,1/1/02,1998-2016,6.43,,20.47878,-105.596017
+383,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,2002,1/1/02,1998-2016,17.36,,20.47878,-105.596017
+384,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_de_Carrizales,Tenacatita,2002,1/1/02,1998-2016,53.36,,19.278992,-104.874956
+385,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,2003,1/1/03,1998-2016,5.36,,20.47878,-105.596017
+386,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Chimo,2003,1/1/03,1998-2016,6,,20.47878,-105.596017
+387,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Cortezian,Mexican_Central,Mexico,Continental,Seasonal,Bahia_Banderas,Tenacatita,2003,1/1/03,1998-2016,52.93,,20.616507,-105.42879
+388,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,1997,1/1/97,1983-1997,75.9,,15.736167,-96.127782
+389,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,1998,1/1/98,1998-2016,70.97,,15.736167,-96.127782
+390,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2002,1/1/02,1998-2016,24.62,,15.736167,-96.127782
+391,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2002,1/1/02,1998-2016,21.33,,15.736167,-96.127782
+392,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2002,1/1/02,1998-2016,44.92,,15.736167,-96.127782
+393,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2003,1/1/03,1998-2016,1.44,,15.736167,-96.127782
+394,"Calderón-Aguilera, 2006",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Southern,Mexico,Continental,Thermally_Stable,Oaxaca,La_Entrega,2003,1/1/03,1998-2016,40.62,,15.736167,-96.127782
+395,"Alvarado, 2010",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Department_of_Rivas,2009,1/1/09,1998-2016,9.1,5.28,11.381772,-86.040077
+396,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Punta_Gigante,2009,1/1/09,1998-2016,16.76,10.81,11.381772,-86.040077
+397,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Guacalito,2009,1/1/09,1998-2016,18.65,11.62,11.365048,-86.012941
+398,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,La_Anciana,2009,1/1/09,1998-2016,8.92,9.73,11.352903,-86.000713
+399,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Punta_El_Clavo,2009,1/1/09,1998-2016,2.97,15.41,11.32026,-85.952119
+400,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Costa_Blanca,2009,1/1/09,1998-2016,10.27,17.57,11.302542,-85.939643
+401,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Marsella,2009,1/1/09,1998-2016,1.35,25.41,11.381772,-86.040077
+402,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,El_Toro,2009,1/1/09,1998-2016,14.59,17.3,11.268585,-85.90591
+403,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,Peña_Rota,2009,1/1/09,1998-2016,8.11,3.24,11.232272,-85.868781
+404,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,La_Flor,2009,1/1/09,1998-2016,2.16,0,11.137949,-85.806907
+405,"Alvarado, 2011",Tropical_East_Pacific,Chiapas_Nicaragua,Nicaragua_Papagayo_Zone,Nicaragua,Continental,Upwelling,Department_of_Rivas,La_Cagada ,2009,1/1/09,1998-2016,7.03,5.68,11.120202,-85.79226
+406,"Guzman, 1992",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Bahia_Chatham,1987,1/1/87,1983-1997,2.91,,5.549305,-87.045684
+407,"Guzman, 1992",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Punta_Pacheco,1987,1/1/87,1983-1997,2.6,,5.550588,-87.03803
+408,"Alvarado, 2012",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2006,1/1/06,1998-2016,24,,5.529243,-87.06205
+409,"Alvarado, 2012",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2009,1/1/09,1998-2016,24,,5.529243,-87.06205
+410,"Alvarado, 2012",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2009,1/1/09,1998-2016,24,,5.529243,-87.06205
+411,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,2007,1/1/07,1998-2016,26.6,,8.7155,-83.8724
+412,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,2009,1/1/09,1998-2016,38.3,,8.7155,-83.8724
+413,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,1996,1/1/96,1983-1997,53.54,,10.621859,-85.662063
+414,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,2006,1/1/06,1998-2016,38.5,,10.621859,-85.662063
+415,"Alvarado, 2012",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,2009,1/1/09,1998-2016,2.5,,10.621859,-85.662063
+416,"Alvarado, 2016",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Isla_EspIritu_Santo,2009,1/1/09,1998-2016,54.17,9.53,24.390885,-110.355692
+417,"Alvarado, 2016",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2009,1/1/09,1998-2016,44.17,4.18,23.368583,-109.416667
+418,"Alvarado, 2016",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,2009,1/1/09,1998-2016,19.15,12.23,10.621859,-85.662063
+419,"Alvarado, 2016",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Seasonal,Bahia_de_Carrizales,Zihuatanejo,2009,1/1/09,1998-2016,59.6,2.82,19.15,-104.733
+420,"Alvarado, 2016",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Huatulco,2009,1/1/09,1998-2016,49.11,19.4,17.62719,-101.658147
+421,"Alvarado, 2016",Tropical_East_Pacific,Mexican_Tropical_Pacific,Mexican_Central,Mexico,Continental,Thermally_Stable,Ixtapa,Huatulco,2009,1/1/09,1998-2016,89.95,5.77,17.62719,-101.658147
+422,"Alvarado, 2016",Tropical_East_Pacific,Chiapas_Nicaragua,El_Salvador,El_Salvador,Continental,Thermally_Stable,Los_Cobanos,Los_Cobanos,2009,1/1/09,1998-2016,0,7.82,13.520009,-89.803749
+423,"Alvarado, 2016",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Culebra_Bay,2009,1/1/09,1998-2016,2.29,64.17,10.621859,-85.662063
+424,"Alvarado, 2016",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Cano_island,Cano_island,2009,1/1/09,1998-2016,22.96,12.62,8.7155,-83.8724
+425,"Alvarado, 2016",Tropical_East_Pacific,Cocos_Islands,Cocos_Islands,Costa_Rica,Oceanic,Thermally_Stable,Cocos_Island,Cocos_Island,2009,1/1/09,1998-2016,23.88,14.82,5.529243,-87.06205
+426,"Alvarado, 2016",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Coiba_Island,2009,1/1/09,1998-2016,43.09,12.63,7.575128,-81.683878
+427,"Alvarado, 2016",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,2009,1/1/09,1998-2016,71.97,4.97,8.543234,-79.061392
+428,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1998,1/1/98,1983-1997,67.02,30.8,2.953784,-78.17612
+429,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,1999,1/1/99,1998-2016,61.25,36.75,2.953784,-78.17612
+430,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2000,1/1/00,1998-2016,66.15,27.3,2.953784,-78.17612
+431,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2001,1/1/01,1998-2016,57.58,30.63,2.953784,-78.17612
+432,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2002,1/1/02,1998-2016,61.95,32.9,2.953784,-78.17612
+433,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2003,1/1/03,1998-2016,58.8,32.9,2.953784,-78.17612
+434,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2004,1/1/04,1998-2016,60.38,35.35,2.953784,-78.17612
+435,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2005,1/1/05,1998-2016,47.07,48.83,2.953784,-78.17612
+436,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2006,1/1/06,1998-2016,47.6,44.45,2.953784,-78.17612
+437,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2007,1/1/07,1998-2016,41.13,55.3,2.953784,-78.17612
+438,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2008,1/1/08,1998-2016,39.2,51.8,2.953784,-78.17612
+439,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2009,1/1/09,1998-2016,42.18,51.28,2.953784,-78.17612
+440,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2010,1/1/10,1998-2016,43.93,41.83,2.953784,-78.17612
+441,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2011,1/1/11,1998-2016,43.58,48.83,2.953784,-78.17612
+442,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2012,1/1/12,1998-2016,42,48.13,2.953784,-78.17612
+443,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2013,1/1/13,1998-2016,46.03,42.88,2.953784,-78.17612
+444,"Zapata, 2017",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Gorgona_Island,La_Azufrada,2014,1/1/14,1998-2016,50.75,45.85,2.953784,-78.17612
+445,"Cortés, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Islotes,1985,1/1/85,1983-1997,0.96,,8.469178,-83.207764
+446,"Cortés, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_El_Bajo,1985,1/1/85,1983-1997,1.71,,8.65429,-83.272471
+447,"Cortés, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Punta_Bejucos,1985,1/1/85,1983-1997,29.08,,8.726219,-83.408695
+448,"Cortés, 1990",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Golfo_Dulce,Sandalo_Reef,1985,1/1/85,1983-1997,45.87,,8.57821,-83.330269
+449,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1974,1/1/74,1973-1982,14.46,,7.79297,-81.75487
+450,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1975,1/1/75,1973-1982,14.47,,7.79297,-81.75487
+451,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1975,1/1/75,1973-1982,19.79,,7.79297,-81.75487
+452,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1975,1/1/75,1973-1982,23.37,,7.79297,-81.75487
+453,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1975,1/1/75,1973-1982,20.55,,7.79297,-81.75487
+454,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1976,1/1/76,1973-1982,10.21,,7.79297,-81.75487
+455,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1976,1/1/76,1973-1982,29.18,,7.79297,-81.75487
+456,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1976,1/1/76,1973-1982,25.66,,7.79297,-81.75487
+457,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1977,1/1/77,1973-1982,23.85,,7.79297,-81.75487
+458,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1977,1/1/77,1973-1982,20.98,,7.79297,-81.75487
+459,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1977,1/1/77,1973-1982,20.6,,7.79297,-81.75487
+460,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1978,1/1/78,1973-1982,17.46,,7.79297,-81.75487
+461,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1978,1/1/78,1973-1982,17.15,,7.79297,-81.75487
+462,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1978,1/1/78,1973-1982,17.48,,7.79297,-81.75487
+463,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1979,1/1/79,1973-1982,16.86,,7.79297,-81.75487
+464,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1980,1/1/80,1973-1982,14.84,,7.79297,-81.75487
+465,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1981,1/1/81,1973-1982,15.99,,7.79297,-81.75487
+466,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1982,1/1/82,1973-1982,11.08,,7.79297,-81.75487
+467,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1983,1/1/83,1983-1997,1.07,,7.79297,-81.75487
+468,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1984,1/1/84,1983-1997,1.07,,7.79297,-81.75487
+469,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1985,1/1/85,1983-1997,1.05,,7.79297,-81.75487
+470,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1985,1/1/85,1983-1997,1.05,,7.79297,-81.75487
+471,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1986,1/1/86,1983-1997,1.05,,7.79297,-81.75487
+472,"Glynn, 1990",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1987,1/1/87,1983-1997,2.6,,7.79297,-81.75487
+473,"Alvarado, 2005",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Rocas_las_tres_hermanas,2003,1/1/03,1998-2016,7.53,7.79,9.10336,-83.717787
+474,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Rocas_las_tres_hermanas,1992,1/1/92,1983-1997,7.6,,9.10336,-83.717787
+475,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Manuel_Antonio,Rocas_las_tres_hermanas,1992,1/1/92,1983-1997,33.7,,9.371321,-84.143853
+476,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Costa_Rica,Cambutal,1992,1/1/92,1983-1997,24.8,,9.372058,-84.15573
+477,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Leptoseris_reef,1996,1/1/96,1983-1997,68.9,,10.591622,-85.66936
+478,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Leptoseris_reef,1997,1/1/97,1983-1997,11.37,,10.591622,-85.66936
+479,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Leptoseris_reef,1997,1/1/97,1983-1997,4.01,,10.591622,-85.66936
+480,"Jiménez, 2001",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Leptoseris_reef,1998,1/1/98,1998-2016,4.35,,10.591622,-85.66936
+481,"Alvarado, 2005",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,1992,1/1/92,1983-1997,22,,9.144199,-83.76471
+482,"Alvarado, 2005",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,1994,1/1/94,1983-1997,27.8,,9.144199,-83.76471
+483,"Alvarado, 2005",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2001,1/1/01,1998-2016,14.8,,9.144199,-83.76471
+484,"Alvarado, 2005",Tropical_East_Pacific,Nicoya,Costa_Rica_Southern,Costa_Rica,Continental,Thermally_Stable,Parque_Nacional_Marino_Ballena,Punta_Uvita,2003,1/1/03,1998-2016,5.9,,9.144199,-83.76471
+485,"Vargas Ochoa, 2008",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Ensenada_de_Utria_Punta_Diego,2006,1/1/06,1998-2016,13.4,62.09,5.995362,-77.35321
+486,"Vargas Ochoa, 2008",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Ensenada_de_Utria_La_Aguada,2006,1/1/06,1998-2016,35.44,53.94,6.01097,-77.347747
+487,"Jiménez, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Guacamaya,2006,1/1/06,1998-2016,41.71,12.29,10.51952,-85.793798
+488,"Jiménez, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Punta_Cacique,2006,1/1/06,1998-2016,95.72,2.67,10.573613,-85.697491
+489,"Jiménez, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Bahia_Guacamaya,2007,1/1/07,1998-2016,41.71,12.29,10.51952,-85.793798
+490,"Jiménez, 2010",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Punta_Cacique,2007,1/1/07,1998-2016,95.72,2.67,10.573613,-85.697491
+491,"Stuhldreier, 2015",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Matapalo,2013,1/1/13,1998-2016,22,80,10.544322,-85.777829
+492,"Stuhldreier, 2015",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Gulf_of_Papagayo,Matapalo,2014,1/1/14,1998-2016,40,67.5,10.542462,-85.76947
+493,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_Anchorage,2006,1/1/06,1998-2016,11.5,,1.382748,-91.820406
+494,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_Anchorage,2006,1/1/06,1998-2016,4.5,,1.382748,-91.820406
+495,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Bahia_Tiburon,2006,1/1/06,1998-2016,36.33,,1.386712,-91.815721
+496,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Bahia_Tiburon,2006,1/1/06,1998-2016,5,,1.386712,-91.815721
+497,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Anchorage,2006,1/1/06,1998-2016,5,8,1.679522,-91.998466
+498,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Anchorage,2006,1/1/06,1998-2016,3,3,1.679522,-91.998466
+499,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Anchorage,2006,1/1/06,1998-2016,35,,1.679522,-91.998466
+500,"Banks, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Anchorage,2006,1/1/06,1998-2016,37,,1.679522,-91.998466
+501,"Banks, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Punta_Espejo,2006,1/1/06,1998-2016,1,,0.316707,-90.401225
+502,"Banks, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Punta_Espejo,2006,1/1/06,1998-2016,1,,0.316707,-90.401225
+503,"Banks, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Punta_Espejo,2006,1/1/06,1998-2016,15,,0.316707,-90.401225
+504,"Banks, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Punta_Espejo,2006,1/1/06,1998-2016,7,,0.316707,-90.401225
+505,"García, 2014",Tropical_East_Pacific,Cortezian,Mexican_Northern,Mexico,Continental,Seasonal,Los_Cabos ,Cabo_Pulmo,2012,1/1/12,1998-2016,25.7,,23.368583,-109.416667
+506,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_North_Anchorage,2005,1/1/05,1998-2016,58,,1.680978,-92.000568
+507,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_South_Corals ,2005,1/1/05,1998-2016,73.4,,1.386712,-91.815721
+508,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_1,2005,1/1/05,1998-2016,31.8,,0.316707,-90.401225
+509,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_2,2005,1/1/05,1998-2016,12,,0.316707,-90.401225
+510,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_3,2005,1/1/05,1998-2016,16.7,,0.316707,-90.401225
+511,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Hidden_Reef,2006,1/1/06,1998-2016,75.6,,1.676282,-92.007146
+512,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_Deep_North_Anchorage,2006,1/1/06,1998-2016,56.8,,1.679522,-91.998466
+513,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_South_Anchorage,2006,1/1/06,1998-2016,36.4,,1.680978,-92.000568
+514,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_North_Corals,2006,1/1/06,1998-2016,56.8,,1.386712,-91.815721
+515,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_South_Corals ,2006,1/1/06,1998-2016,93.3,,1.386712,-91.815721
+516,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_Anchorage,2006,1/1/06,1998-2016,40.6,,1.382748,-91.820406
+517,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_1,2006,1/1/06,1998-2016,30.4,,0.316707,-90.401225
+518,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_2,2006,1/1/06,1998-2016,14.2,,0.316707,-90.401225
+519,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Hidden_Reef,2007,1/1/07,1998-2016,90.5,,1.676282,-92.007146
+520,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_North_Anchorage,2007,1/1/07,1998-2016,58.1,,1.680978,-92.000568
+521,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_North_Anchorage,2007,1/1/07,1998-2016,49.6,,1.680978,-92.000568
+522,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Darwin_Island,Darwin_North_Anchorage,2007,1/1/07,1998-2016,38.5,,1.680978,-92.000568
+523,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_North_Corals,2007,1/1/07,1998-2016,51.2,,1.386712,-91.815721
+524,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_South_Corals ,2007,1/1/07,1998-2016,83.2,,1.386712,-91.815721
+525,"Vera, 2009",Galapagos,Northern_Galapagos_Islands,Northern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Wolf_Island,Wolf_Anchorage,2007,1/1/07,1998-2016,36.3,,1.382748,-91.820406
+526,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_1,2007,1/1/07,1998-2016,30.4,,0.316707,-90.401225
+527,"Vera, 2009",Galapagos,Eastern_Galapagos_Islands,Eastern_Galapagos_Islands,Ecuador,Oceanic,Galapagos_Islands,Marchena_Island,Roca_Espejo_2,2007,1/1/07,1998-2016,9.5,,0.316707,-90.401225
+528,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Golfo_de_Santa_Elena,Golfo_de_Santa_Elena,2012,1/1/12,1998-2016,44.81,47.68,10.967237,-85.722332
+529,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Islas_Murcielago,Islas_Murcielago,2014,1/1/14,1998-2016,2.87,64.46,10.844355,-85.905033
+530,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Golfo_de_Papagayo,Golfo_de_Papagayo,2010,1/1/10,1998-2016,5.3,39.51,10.591622,-85.66936
+531,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Golfo_de_Papagayo,Golfo_de_Papagayo,2014,1/1/14,1998-2016,1.99,49.45,10.591622,-85.66936
+532,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Punta_Gorda,Punta_Gorda,2010,1/1/10,1998-2016,6.84,34,10.544322,-85.777829
+533,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Bahia_Potrero,Bahia_Potrero,2010,1/1/10,1998-2016,2.65,59.38,10.456407,-85.855406
+534,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Bahia_Brasilito,Bahia_Brasilito,2009,1/1/09,1998-2016,0.22,54.75,10.412998,-85.79754
+535,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Nicaragua_Papagayo_Zone,Costa_Rica,Continental,Upwelling,Cabo_Velas,Cabo_Velas,2011,1/1/11,1998-2016,1.1,85.43,10.357665,-85.875568
+536,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Villareal,Villareal,2010,1/1/10,1998-2016,1.1,79.25,10.240422,-85.8518
+537,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Marbella,Marbella,2010,1/1/10,1998-2016,2.21,76.16,10.127366,-85.798169
+538,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,San_Juanillo,San_Juanillo,2010,1/1/10,1998-2016,2.65,79.91,10.031133,-85.744388
+539,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,San_Juanillo,San_Juanillo,2013,1/1/13,1998-2016,4.64,85.65,10.031133,-85.744388
+540,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Garza,Garza,2010,1/1/10,1998-2016,0.88,80.35,9.904555,-85.651137
+541,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Samara-Carrillo,Samara-Carrillo,2013,1/1/13,1998-2016,1.99,81.68,9.861368,-85.502902
+542,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Samara-Carrillo,Samara-Carrillo,2014,1/1/14,1998-2016,1.99,81.68,9.861368,-85.502902
+543,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Coyote,Coyote,2013,1/1/13,1998-2016,0.22,84.77,9.793133,-85.286032
+544,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Cabo_Blanco,Cabo_Blanco,2012,1/1/12,1998-2016,4.86,94.04,9.545094,-85.107427
+545,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Islas_Tortuga,Islas_Tortuga,2013,1/1/13,1998-2016,0.44,85.43,9.78071,-84.893112
+546,"Alvarado, 2018",Tropical_East_Pacific,Nicoya,Costa_Rica_Central,Costa_Rica,Continental,Upwelling,Islas_Tortuga,Islas_Tortuga,2014,1/1/14,1998-2016,0.44,85.43,9.78071,-84.893112
+547,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1971,1/1/71,1971-1972,12.4,,7.8094,-81.7609
+548,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Contreras,1971,1/1/71,1971-1972,14.1,,7.8356,-81.7756
+549,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1971,1/1/71,1971-1972,18.9,,7.8094,-81.7609
+550,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Coiba,1970,1/1/70,1971-1972,14.9,,7.4693,-81.7568
+551,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Coiba,1970,1/1/70,1971-1972,25.6,,7.4693,-81.7568
+552,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1971,1/1/71,1971-1972,16.2,,7.8094,-81.7609
+553,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas,1971,1/1/71,1971-1972,30.4,,7.982,-82.0312
+554,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Coiba,1970,1/1/70,1971-1972,45.5,,7.4693,-81.7568
+555,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,1971,1/1/71,1971-1972,1.8,,8.543234,-79.061392
+554,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Uva_Island,1971,1/1/71,1971-1972,42.3,,7.8094,-81.7609
+557,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,1971,1/1/71,1971-1972,45.8,,8.3333,-79.1166
+558,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,1971,1/1/71,1971-1972,55.9,,8.3333,-79.1166
+559,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas,1971,1/1/71,1971-1972,65.7,,7.982,-82.0312
+560,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas,1971,1/1/71,1971-1972,81,,7.982,-82.0312
+561,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas,1971,1/1/71,1971-1972,85.1,,7.982,-82.0312
+562,"Porter, 1972",Tropical_East_Pacific,Nicoya,Gulf_of_Chiriqui,Panama,Continental,Thermally_Stable,Gulf_of_Chiriqui,Secas,1971,1/1/71,1971-1972,90.3,,7.982,-82.0312
+563,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,1971,1/1/71,1971-1972,93.8,,8.3333,-79.1166
+564,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Pearl_Islands,1971,1/1/71,1971-1972,95.7,,8.3333,-79.1166
+565,"Porter, 1972",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Taboga,1970,1/1/70,1971-1972,1.8,,8.7872,-79.5575
+566,"Porter, 1970",Tropical_East_Pacific,Panama_Bight,Panama_Bight,Panama,Continental,Upwelling,Pearl_Islands,Taboga,1970,1/1/70,1971-1972,2.3,,8.7872,-79.5575
+567,"López-Victoria,  2018",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Chola_reef,2002,1/1/02,1998-2016,57.03,34.89,5.992011,-77.344737
+568,"López-Victoria,  2018",Tropical_East_Pacific,Panama_Bight,Colombia,Colombia,Continental,Upwelling,Ensenada_de_Utria,Chola_reef,2013,1/1/13,1998-2016,36.23,48.98,5.992011,-77.344737

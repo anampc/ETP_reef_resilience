@@ -1,0 +1,183 @@
+---
+title: "Extract SST from NOAA High-resolution Blended Analysis and calculate DHW"
+author: "Ana Palacio"
+date: "September 9, 2019"
+output:
+  pdf_document:
+    toc: true
+    highlight: zenburn
+  html_document:
+    toc: true
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This script use the .nc files obtained from ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/ (data from 1981 to 2014 in the "DHW/Daily_OISST_v2" folder) to extract the SST data for the locations of interest (coordinates = "DHW/Data/Coordinates.csv"), and then matches the maximum DHW during a year with the rate of change of coral coral measured in the location.
+
+```{r}
+rm(list = ls())  # Remove all objects from memory
+setwd("DHW")# Move working directory inside the DHW folder
+```
+
+# 1. SST Data 
+
+### Extract temperature data based on the coordinates
+
+```{r libraries1, message=FALSE, results="hide"}
+  library(raster)
+  library(parallel)
+```
+ 
+```{r Extract_SST_data, cache=TRUE}
+
+   # read all the .nc files 
+    flist<-list.files('Daily_OISST_v2',pattern='*.nc',full.names=TRUE)
+      
+  # brick them 
+    ras<-lapply(flist, stack)
+    pts <- read.csv("Data/Coordinates.csv", stringsAsFactors = FALSE)
+    extract.pts <- cbind(lon=pts$lon, lat=pts$lat)
+    
+  ## Extract data by coordinates 
+    ext <- lapply(ras,raster::extract,extract.pts)
+    #head(ext)
+    SST <- unlist(ext, recursive = FALSE)
+    #head(SST)
+```
+
+
+### Bind temperature data with coordinates and dates
+
+```{r Bind_SST_GPS_Date}
+  
+# Create a date list 
+    Dates<-seq.Date(as.Date("1981-09-01"), as.Date("2014-12-31"), by = "day")
+    Date<-as.character(Dates)
+    #head(Date)
+      
+# Bind GPS points and Dates
+    Date.location <- merge(pts, Date)
+    Temperature.data<-data.frame(Date.location, SST)
+    Temperature.data$Date<-as.Date(Temperature.data$y)
+    # head(Temperature.data)  
+    # summary(Temperature.data)
+```
+
+# 2. DHW calculation
+
+```{r libraries2, results="hide"}
+  library(lubridate)
+  library(dplyr)
+  library(tidyverse)
+  library(zoo)
+  library(reshape2)
+```
+
+### Calculate MMM
+
+For the climatology and maximum monthly mean (MMM) we selected the SST data from 1985-2012, to keep consistency with the CRW methodology
+
+```{r Climatology}
+  Temperature.data$Month<-month(Temperature.data$Date)
+  Temperature.data$Year<-year(Temperature.data$Date)
+  Temperature.data$Site<-as.factor(Temperature.data$Site) 
+  
+  # SELECT YEARS 1985-2012
+    SST.1985_2012<-filter(Temperature.data, Year>1984)
+    SST.1985_2012<-filter(SST.1985_2012, Year<2013)
+
+  # Mean temperature per month in each location
+  OI.MonthlyClimatology_1985_2012<-SST.1985_2012 %>%
+    group_by(Site, Month) %>%
+    summarize(Clima_M = mean(SST, na.rm = TRUE))
+  #OI.MonthlyClimatology_1985_2012
+
+  # Maximum Monthly Mean in each location
+  MMM_OI<-OI.MonthlyClimatology_1985_2012 %>%
+    group_by(Site) %>%
+    summarize(MMM = max(Clima_M, na.rm = TRUE))
+  # MMM_OI
+```
+
+### Calculate HotSpots
+
+```{r HotSpots}
+
+Temperature.data <- merge(Temperature.data, MMM_OI, on="Site") # Add the MMM to each location
+Temperature.data <- Temperature.data[order(Temperature.data$Site, Temperature.data$Date),]
+
+Temperature.data$HotSpot<-(Temperature.data$SST-(Temperature.data$MMM))
+Temperature.data$HotSpot<-ifelse(Temperature.data$HotSpot>=0,
+                                Temperature.data$HotSpot, 0)# REMOVE NEGATIVE ANOMALIES
+Temperature.data$D_Stress<-ifelse(Temperature.data$HotSpot>=1,
+                               Temperature.data$HotSpot, 0) # REMOVE HotSpots <1
+Temperature.data$W_Stress<-(Temperature.data$D_Stress/7) # Transform daily to weekly values
+```
+
+### Calculate DHW
+
+```{r DHW}
+# Rolling sum of 84 days (12 weeks) Hotspots for each location
+DHW_Daily<-Temperature.data %>% 
+  group_by(Site) %>%
+  mutate(NOAA_DHW_OI=rollapplyr(W_Stress,list(-(83:0)),sum,fill=NA, partial=FALSE)) %>%
+  ungroup
+#write.csv(DHW_Daily, "DHW_Daily.csv")
+```
+
+### Summarise max DHW and max SST by location and year
+
+```{r}
+# 1. Summary by Site and year (max values)
+  DHW_Year_Summary<-DHW_Daily %>%
+         group_by(Site, Year) %>%
+         dplyr::summarise(maxDHW = max(NOAA_DHW_OI),
+                          maxSST = max(SST))
+
+# 2. Dulplicate places that belong to the same OISST pixel in ordet to match them with changes in coral cover  
+    # Gorgona_Island = La_Azufrada
+    La_Azufrada<-filter(DHW_Year_Summary, Site=="Gorgona_Island")
+    La_Azufrada$Site<-"La_Azufrada"
+    
+    # Wolf_North_Corals = Wolf_South_Corals
+    Wolf_South_Corals<-filter(DHW_Year_Summary, Site=="Wolf_North_Corals")
+    Wolf_South_Corals$Site<-"Wolf_South_Corals"
+    
+    # Roca_Espejo_1 = Roca_Espejo_2
+    Roca_Espejo_2<-filter(DHW_Year_Summary, Site=="Roca_Espejo_1")
+    Roca_Espejo_2$Site<-"Roca_Espejo_2"
+    
+    # Bahia_Banderas = Tenacatita
+    Tenacatita<-filter(DHW_Year_Summary, Site=="Bahia_Banderas")
+    Tenacatita$Site<-"Tenacatita"
+    
+    DHW_Year_Summary<-rbind(DHW_Year_Summary, La_Azufrada,
+                            Wolf_South_Corals, Roca_Espejo_2, 
+                            Tenacatita)    
+    
+    write.csv(DHW_Year_Summary, "Output/maxDHW.csv")
+    
+#3. Wide format data. Not required for further analysis
+    #DHW_Year<-DHW_Year_Summary[, -4]
+    #DHW_All_wide <-spread(DHW_Year, Year, maxDHW)
+    #DHW_All_wideb <-spread(DHW_Year, Site, maxDHW)
+    # write.csv(DHW_All_wide, "Output/maxDWH_Wide.csv")
+```
+
+
+### Merge maxDHW data with Rate of Coral cover data
+
+```{r Summaries}
+
+# 1. Add "Start_year" variable
+    DHW_Year_Summary$Start_year<-DHW_Year_Summary$Year
+
+# 2. Read the rate of cover file and merge
+    CC_Change<-read.csv("Data/Rate_of_change_cover.csv", header = TRUE)
+    RoC_DHW<-left_join(CC_Change, DHW_Year_Summary, by=c("Start_year", "Site"))
+    write.csv(RoC_DHW, "Output/RoC_DHW.csv")
+    setwd("..") # move back to main project folder to continue with coral cover analysis
+```
