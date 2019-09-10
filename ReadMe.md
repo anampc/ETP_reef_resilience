@@ -32,7 +32,7 @@ estimate the rate of change of coral cover.
 
 #### DHW: Directory containing the data files and scripts used to extract OISST data and calculate DHW.
 You do not have to run the code in the DHW folder to produce the data analysis in the paper (this can be achieved by running "Coral_cover_analysis.Rmd"). However, you could use these scripts to retrieve the SST data (.nc files from NOAA) or to verify the calculation of DHW based on the SST data. 
-The outputs of these scripts are already included in the "Data/DHW.csv"" and "Data/RoC_DWH.csv"" files. By running the scripts inside this folder you will create those files again but they will be placed in the "DHW/Output/" folder
+The outputs of these scripts are already included in the "Data/DHW.csv" and "Data/RoC_DWH.csv" files. By running the scripts inside this folder you will create those files again but they will be placed in the "DHW/Output/" folder
 
 You would need ~ 18G of free space
 
@@ -45,4 +45,4 @@ You would need ~ 18G of free space
 * **DHW/Data/Coordinates.csv:** File containing the coordinates of the study sites in the same format as the .nc files (i.e.decimal degrees, lat: -90 to 90; lon: 0 to 360)
 
 ##### Output:
-* **DHW/Output/**: Directory containing the files produced by the DHW analysis (script 2.DHW_calculation.Rmd)
+* **DHW/Output/**: Directory containing the files produced by the DHW analysis (script "2.DHW_calculation.Rmd")
