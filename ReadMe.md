@@ -42,7 +42,7 @@ You would need ~ 18G of free space
 * **DHW/2.DHW_calculation.Rmd:** R script to extract the daily SST data from the study sites, calculate DHW, and extract maximum annual SST and DHW in each location.
 
 ##### Data
-* **DHW/Data/Coordinates.csv:** File containing the coordinates of the study sites in the same format as the .nc files (i.e.decimal degrees, lat: -90 to 90; lon: 0 to 360)
+* **DHW/Data/Coordinates.csv:** File containing the coordinates of the study sites in the same format as the .nc files (i.e. decimal degrees, lat: -90 to 90; lon: 0 to 360)
 
 ##### Output:
 * **DHW/Output/**: Directory containing the files produced by the DHW analysis (script "2.DHW_calculation.Rmd")
