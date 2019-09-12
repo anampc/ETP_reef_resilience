@@ -14,5 +14,5 @@
 # Get the SST data from the 1981-2014 period from the NOAA dataset
 # ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/
 
-#wget ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/sst.day.mean.* ./
-wget "ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/sst.day.mean.*[1981-2014]*.nc" ./
+for i in `seq 1981 2014`; do wget "ftp://ftp.cdc.noaa.gov/Datasets/noaa.oisst.v2.highres/sst.day.mean.$i.nc" ./; done
+
