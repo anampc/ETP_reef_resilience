@@ -348,8 +348,7 @@ library(RColorBrewer)
   dhw <- read.csv("Data/maxDHW.csv", header=TRUE)
 
 # Exclude years 1981, and 2017-2019
-  dhw <- dhw[!dhw$Year == 1981, ] 
-  dhw <- filter(dhw, Year < 2015)
+  dhw <- dhw[!dhw$Year == 1981, ]
 
 # Create groups for plot
   ts.Cano_island <- subset(dhw, dhw$Site == "Cano_island")     
