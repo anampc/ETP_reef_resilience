@@ -307,9 +307,12 @@ library(data.table)
   x <-c(1:45)
   YearsR = as.character(c(1970:2014))
   axis(1,  at = x, labels = YearsR, lwd = 0.5, cex.axis=0.5, las = 2)
-  dev.off()
+
 ```
 
+```{r}
+dev.off()
+```
 * Polynomial adjustment for all regions
 
 ```{r, message=FALSE}
