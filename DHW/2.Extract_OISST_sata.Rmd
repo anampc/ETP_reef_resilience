@@ -3,12 +3,11 @@ title: "Extract SST from NOAA High-resolution Blended Analysis and calculate DHW
 author: "Ana Palacio"
 date: "September 9, 2019"
 output:
-  pdf_document:
-    toc: true
-    highlight: zenburn
   html_document:
     toc: true
     theme: united
+    code_folding: hide
+    
 ---
 
 ```{r setup, include=FALSE}
