@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
  * Title: Coral reef resilience to thermal stress in the Eastern Tropical Pacific
  * Authors: Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro & James W. Porter
- * Version 3.0
+ * Version 4.0
 
 
 ```{r}
@@ -168,7 +168,7 @@ library(nlme)
 
 ```{r}
 # All years 1970_2014 
-  model1 <- nlme::lme(
+  model1 <- lme(
     Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=aggr.region)
 
   summary(model1)
@@ -278,8 +278,6 @@ NewData_3 <- expand.grid(Thermal_regime=unique(ENSO.83_97$Thermal_regime),
 
 pred_3 <- predict(model3, newdata=NewData_3, level=0, asList = FALSE)
 
-#summary(pred) 
-#length(pred)
 ```
 
 * Figure 1d
@@ -297,9 +295,10 @@ pred_3 <- predict(model3, newdata=NewData_3, level=0, asList = FALSE)
                     aes(y=predict(model3, level=0, newdata=NewData_3)), size=2) +
           theme(axis.text.y=element_blank(),  
                     axis.title.y=element_blank(),
-                    legend.position = c(0.58, 1),
+                    legend.position = c(0.58, -0.4),
                     legend.title=element_blank(), 
-                    legend.text=element_text(size=6))+
+                    legend.text=element_text(size=6),
+                    legend.box ="horizontal")+
           guides(col = guide_legend(nrow = 2))+
           scale_fill_manual(values=my_colours) +
           scale_colour_manual(values=my_colours)+
@@ -382,6 +381,42 @@ pred_4 <- predict(model4, newdata=NewData_4, level=0)
     plot(model5, Coral_cover ~ fitted(.) | Region, abline = c(0,1))
     plot(model5, Coral_cover ~ fitted(.) | Thermal_regime, abline = c(0,1))
 
+```
+
+* Extract model 5 predicted values 
+
+```{r}
+# Create a new data frame for independent variables  
+NewData_5 <- expand.grid(Thermal_regime=unique(ENSO.83_14$Thermal_regime),
+                        #Region=unique(aggr.region$Region),
+                        Year=seq((min(ENSO.83_14$Year)), (max(ENSO.83_14$Year))))
+
+pred_5 <- predict(model5, newdata=NewData_5, level=0)
+
+```
+
+* Model 5 prediction
+
+```{r, warning=FALSE}
+# Using model data 
+    Model5b_plot <- ggplot(ENSO.83_14, aes(x=Year, y=Coral_cover, colour=Thermal_regime)) +
+          geom_point(aes(fill=factor(Thermal_regime)),
+             shape = 21, colour = "black", size = 2, stroke = 0.3, alpha=0.5) +
+          scale_y_continuous("Live coral cover (%)", limits = c(0, 80))+
+          scale_x_continuous("", limits = c(1982.7, 2014.3),
+                     breaks = seq(1983, 2014, by=2), expand = c(0.02,0.02))+
+          geom_line(data=NewData_5, aes(y=predict(model5, level=0, newdata=NewData_5)), size=2)+
+          theme(axis.text.y=element_blank(),  
+                    axis.title.y=element_blank(),
+                    legend.position = c(0.58, -0.3),
+                    legend.title=element_blank(), 
+                    legend.text=element_text(size=6),
+                    legend.direction="horizontal")+
+          scale_fill_manual(values=my_colours) +
+          scale_colour_manual(values=my_colours)+    
+          labs(title="Model 5")
+    Model5b_plot
+    
 ```
 
 ##  Coral cover multiple comparison between years
