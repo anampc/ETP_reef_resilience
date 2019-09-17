@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
  * Title: Coral reef resilience to thermal stress in the Eastern Tropical Pacific
  * Authors: Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro & James W. Porter
- * Version 4.0
+ * Version 3.0
 
 
 ```{r}
@@ -42,8 +42,9 @@ theme_set (theme_classic() + theme(panel.grid.major = element_blank(),
                               legend.position="none",
                               axis.text.x = element_text(angle = 90, vjust = 0.5),
                               plot.title = element_text(size=12, face="bold"),
-                              # panel.border = element_blank(), 
-                              panel.border = element_rect(colour = "black", fill=NA, size=1)))
+                              #panel.border = element_rect(colour = "black", fill=NA, size=1)
+                              panel.border = element_blank()
+                              ))
 ```
 
 
@@ -194,12 +195,12 @@ library(nlme)
 Model1_plot <- ggplot(aggr.region, aes(x=Year, y=Coral_cover)) +
   geom_boxplot(aes(group=Year), outlier.shape = NA) +
   stat_boxplot(aes(group=Year), geom = 'errorbar')+
-  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="deeppink")+
-  geom_smooth(span = 0.2, se=T, colour="aquamarine")+ 
+  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
+  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
   #geom_point(aes(colour=Thermal_regime), alpha=0.5) + ylim(0,79) +
   scale_y_continuous("Live coral cover (%)", limits = c(-2, 80), expand = c(0,0))+
   scale_x_continuous("", limits = c(1969, 2015),
-                     breaks = seq(1970, 2014, by=5), expand = c(0,0))+
+                     breaks = seq(1970, 2014, by=2), expand = c(0,0))+
   scale_color_manual(values=my_colours) + labs(title="b")+
   #annotate("text", x = 1983, y = 70, label = "*", size=8)+
   annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
@@ -456,7 +457,7 @@ summary(m.comp_ENSO.83_97, test = univariate())
 Figure1<-grid.arrange(ENSO, Model1_plot, arrangeGrob(
   Model2_plot, Model3b_plot, Model4b_plot, widths = c(3.9/12, 3.80/12, 4.30/12), ncol = 3),
              nrow=3) 
-#ggsave(file="Fig1_V5.svg", plot=Figure1, width=7, height=7)
+#ggsave(file="Fig1_V7.svg", plot=Figure1, width=6.69, height=6.69)
 
 ```
 
