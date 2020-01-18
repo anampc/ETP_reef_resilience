@@ -4,6 +4,8 @@
 .RData
 .Ruserdata
 .Rproj.user/
+*.Rproj
+
 # Outputs
 #ReadMe.html
 #DHW/Daily_OISST_v2/*
