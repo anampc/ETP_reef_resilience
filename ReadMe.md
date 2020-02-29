@@ -3,7 +3,7 @@
 This repository contains data and analysis scripts for the manuscript:
 
 ## Coral reef resilience to thermal stress in the Eastern Tropical Pacific
-#### Authors: Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro and James W. Porter
+#### Authors: Mauricio Romero-Torres, Alberto Acosta, Ana M. Palacio-Castro, David A. Eric A. Treml, Fernando A. Zapata, Paz-García, and James W. Porter
 #### Journal: _Global Change Biology_ [doi:XXX](http://dx.doi.org/XXX)  
 
 -----
