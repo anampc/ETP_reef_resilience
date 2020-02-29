@@ -1,7 +1,7 @@
 ---
 title: "Coral cover analysis"
 author: "Mauricio Romero-Torres and Ana Palacio-Castro"
-date: "January 16, 2020"
+date: "January 29, 2020"
 output:
   html_document:
     toc: true
@@ -484,7 +484,6 @@ Figure2<-grid.arrange(ENSO, Model1_plot, arrangeGrob(
 library(tidyverse)
 library(dplyr)
 library(data.table)
-library(RColorBrewer)
 ```
 
 ## 2.1 Yearly maximum DHW experienced by the best-represented coral reefs sites from 1982 to 2014
@@ -503,7 +502,11 @@ library(RColorBrewer)
   ts.Uva_island <- subset(dhw, dhw$Site == "Uva_Island")          
   ts.Gorgona_island <- subset(dhw, dhw$Site == "Gorgona_Island")          
   ts.Darwin_island <- subset(dhw, dhw$Site == "Darwin_North_Anchorage")          
-  ts.Bahia_Banderas <- subset(dhw, dhw$Site == "Bahia_Banderas")          
+  ts.Bahia_Banderas <- subset(dhw, dhw$Site == "Bahia_Banderas")
+  
+  dhw.best.represented<-rbind(ts.Cano_island, ts.Uva_island, ts.Gorgona_island, 
+                              ts.Darwin_island, ts.Bahia_Banderas)
+  
 
 ```
 
@@ -512,77 +515,48 @@ library(RColorBrewer)
 * Plot max DHW in each location
 
 ```{r}
-# Year, maxDHW
-  par(oma = c(1,1,1,1)) 
-  par(mar = c(4,4,1,1), cex.axis = 1,  las = 1)  
-  par(lwd = 1)   
+
+dhw.best.represented$Thermal_regime<-factor(dhw.best.represented$Site, levels =
+                              c("Darwin_North_Anchorage",  "Cano_island", "Uva_Island", "Gorgona_Island", "Bahia_Banderas"))
+
+
+# Figure 3a
+Figure3a<-ggplot(dhw.best.represented, aes(x=Year, y=maxDHW,
+                                 colour=Thermal_regime)) + theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        axis.text.x = element_text(angle = 90, vjust = 0.5),
+        legend.position = c(0.8,0.8),
+        legend.title = element_blank(),
+        legend.text = element_text(size=8))+
+  ggtitle("a") +
+  scale_x_continuous(limits = c(1982,2014),
+                     breaks = seq(1982,2014, 1),
+                     expand = c(0.05 , 0.05),
+                      "Years")+
+  scale_y_continuous(limits = c(0, 28),
+                     breaks = seq(0,28, 4),
+                    "Degree heating weeks (°C-weeks)")+
   
-  plot(ts.Cano_island$Year,ts.Cano_island$maxDHW,   # Create a white false line with real data
-       xlab="Years", ylab="Degree heating weeks (°C-weeks)",  cex=1.5, cex.lab=0.6, col="white",axes = FALSE,
-       ylim = c(0, 28), lwd = 1.5) 
-  par(new=T)
-  rect(1982, 0, 1983.5, 28, col="#fee8c8", border ="#fee8c8")           # Strong ENSO years
-  par(new=T)
-  rect(1997, 0, 1998.5, 28, col="#fee8c8", border ="#fee8c8")
-  par(new=T)
-  plot(ts.Cano_island$Year, ts.Cano_island$maxDHW,type="l",              # Thermally stable
-  xlab="", ylab="", lwd = 1.5, col="#8c2d04",axes = FALSE,
-       ylim = c(0, 28))
-  par(new=T)
-  plot(ts.Uva_island$Year, ts.Uva_island$maxDHW, type="l",                # Thermally stable
-       xlab="", ylab="", lwd = 1.5, col="#feb24c",axes = FALSE,
-       ylim = c(0, 28))
-  par(new=T)
-  plot(ts.Gorgona_island$Year,ts.Gorgona_island$maxDHW, type="l",         # Tropical upwelling
-       xlab="", ylab="",lwd = 1.5, col="#fb6a4a", axes = FALSE,
-       ylim = c(0, 28))
-  par(new=T)
-  plot(ts.Darwin_island$Year,ts.Darwin_island$maxDHW, type="l",           # Galapagos
-       xlab="", ylab="", lwd = 1.5, col="#9e9ac8",axes = FALSE,
-       ylim = c(0, 28))
-  par(new=T)
-  plot(ts.Bahia_Banderas$Year, ts.Bahia_Banderas$maxDHW, type="l",        # Seasonal
-       xlab="", ylab="",lwd = 1.5,col="#a6d96a", axes = FALSE,
-       ylim = c(0, 28))
-  y <- c(0,4,8,12,16,20,24,28)                                            # Axis
-  axis(2,lwd = 0.5, at = y,cex.axis=0.6)
-  box(lwd = 0.5)
-  x <-c(1982:2014)
-  YearsR = as.character(c(1982:2014))
-  axis(1,  at = x, labels = YearsR, lwd = 0.4, cex.axis=0.5, las = 2) 
-  abline(h=4, col="#525252", lty=2)
-  abline(h=8, col="#525252", lty=2)
-
-# Legend
-  sites <- c("Thermally stable - Caño Island","Thermally stable - Uva Island",
-             "Tropical upwelling - Gorgona Island","Equatorial Upwelling - Darwin Island", 
-             "Seasonal - Bahía Banderas")
-  par(xpd=TRUE)     
-  legend(x = 2000, y = 20, 
-         xpd = NA,  # or TRUE 
-         inset=c(-0.5,0),
-         cex = 0.4,
-         legend = sites,         # box categories 
-         col = c("#8c2d04","#feb24c","#fb6a4a","#9e9ac8","#a6d96a"),
-         lty= 1,
-         lwd = 1.5,
-         x.intersp = 0.5,
-         y.intersp = 2, 
-         bty="n")
-```
-
-```{r, include = FALSE, message = FALSE, warning = FALSE}
- dev.off() # reset parameters for next plot 
+  annotate("rect", xmin = 1982, xmax = 1983.5, ymin = 0, ymax = 28, fill="#fee8c8", alpha = .3)+
+  annotate("rect", xmin = 1997, xmax = 1998.5, ymin = 0, ymax = 28, fill="#fee8c8", alpha = .3)+
+  geom_hline(yintercept=4, linetype=2)+
+  geom_hline(yintercept = 8, linetype=2)+
+  geom_line() +
+  scale_colour_manual(values=c("#9e9ac8",  "#8c2d04","#feb24c", "#fb6a4a", "#a6d96a"),
+                    labels=c("Equatorial upwelling - Darwin Island",
+                              "Thermally stable - Caño Island", 
+                              "Thermally stable - Uva Island", 
+                              "Tropical upwelling - Gorgona Island",
+                              "Seasonal - Bahía Banderas"))
 ```
 
 ## 2.2 Relationship of coral cover rate of change and thermal stress 
 
 * The DHW index measures the accumulated thermal stress above a bleaching threshold for 12 consecutive weeks. 
 * At each site, the maximum monthly mean sea surface # temperature (MMM) is calculated from a long-term satellite climatology dataset. 
-* Any temperature surpassing the MMM by 1ºC or more is added for 12 consecutive weeks, 
-* because temperatures ~1ºC above the MMM are known to cause coral bleaching (Liu et al., 2006).  
-* For example, if the water temperature during four consecutive weeks exceeds the MMM in 1.3°C, # 1.1°C, 1.2°C, and 1.4°C, then,
-* the site accumulates 5°C-weeks when these anomalies are summed. 
+* Any temperature surpassing the MMM by 1ºC or more is added for 12 consecutive weeks, because temperatures ~1ºC above the MMM are known to cause coral bleaching (Liu et al., 2006).  
+* For example, if the water temperature during four consecutive weeks exceeds the MMM in 1.3°C, # 1.1°C, 1.2°C, and 1.4°C, then, the site accumulates 5°C-weeks when these anomalies are summed. 
 
 We tested the hypothesis that the strength of the *Log_annual_rate_of_change* (response variable) is a function of the *maxDHW* experienced. We had measured the rate of change from four Thermal regimes, and fitted Thermal regimes as a random intercept, and estimate a common slope (change in the rate of change) 
  for *maxDHW* across all Thermal regimes by fitting it as a fixed effect.
@@ -613,69 +587,53 @@ r.squaredGLMM(model6)   #  returns the marginal and the conditional R2
 
 ### FIGURE 3b: Relationship of coral cover rate of change and thermal stress
 
-```{r, message=FALSE}
-# Load packages
-  library(tidyverse)
-  library(dplyr)
-  library(data.table)
-  library(RColorBrewer)
- 
-# Create groups for plot
-  Seasonal           = subset(roc.cover, roc.cover$Thermal_regime == "Seasonal")          
-  Thermally_Stable   = subset(roc.cover, roc.cover$Thermal_regime == "Thermally_Stable")  
-  Tropical_Upwelling = subset(roc.cover, roc.cover$Thermal_regime == "Upwelling") 
-  Galapagos          = subset(roc.cover, roc.cover$Thermal_regime == "Galapagos_Islands") 
 
-# Plot
-  par(oma = c(1,1,1,1)) 
-  par(mar = c(4,4,1,1), cex.axis = 1,  las = 1) 
-  par(lwd = 1)
-  plot (Seasonal$maxDHW, Seasonal$Log_annual_rate_of_change,
-        pch = 21, lwd = 0.5, bg = "#a6d96a93", col="black", axes = FALSE,
-        cex=1.5,cex.lab=0.6,
-        xlim = c(0,30), ylim = c(-1.75, 1),
-        xlab = "Degree heating weeks (°C-weeks)",
-        ylab = "Annual rate of change in coral cover")
-  par(new=T); 
-  plot (Thermally_Stable$maxDHW, Thermally_Stable$Log_annual_rate_of_change,
-        xlab="", ylab="", pch = 21, lwd = 0.5, col="black", bg = "#feb24c93", axes = FALSE,
-        cex=1.5,cex.lab=0.6,
-        xlim = c(0,30), ylim = c(-1.75, 1))
-  par(new=T); 
-  plot (Tropical_Upwelling$maxDHW, Tropical_Upwelling$Log_annual_rate_of_change,
-        xlab="", ylab="", pch = 21, lwd = 0.5, bg = "#fb6a4a93",col="black", axes = FALSE,
-        cex=1.5,cex.lab=0.6,
-        xlim = c(0,30), ylim = c(-1.75, 1))
-  par(new=T); 
-  plot (Galapagos$maxDHW, Galapagos$Log_annual_rate_of_change,
-        xlab="", ylab="", pch = 21, lwd = 0.5, bg = "#9e9ac893",col="black", axes = FALSE,
-        cex=1.5,cex.lab=0.6,
-        xlim = c(0,30), ylim = c(-1.75, 1))
-  box(lwd = 0.5)
-  x <-c(0,5,10,15,20,25,30)
-  axis(1, lwd = 0.5, at = x, cex.axis = 0.5)
-  y <- c(-1.5,-1.0,-0.5,0,0.5,1)
-  axis(2,lwd = 0.5, at = y, cex.axis = 0.5)
-  abline(v=4, col="#525252", lty=2); abline(v=8, col="#525252", lty=2); abline(h=0, col="#525252", lty=2); 
-  # Axis text I, II, III, IV
-  text(3.5, 0.3, "II", cex = 0.6); text(5, 0.3, "I", cex = 0.6)
-  text(3.5, - 0.3, "III", cex = 0.6); text(5, -0.3, "IV", cex = 0.6)
-  
-  par(xpd=TRUE) 
-  legend(x = 10, y = -0.5, 
-         xpd = NA,   
-         inset=c(-0.5,0),
-         legend = c("Equatorial Upwelling", "Thermally stable", "Tropical upwelling","Seasonal"),
-         pch=21,
-         pt.bg = c("#9e9ac8","#fb6a4a","#fb6a4a","#a6d96a"),
-         x.intersp = 0.5,
-         y.intersp = 2, 
-         bty="n")
+```{r}
+
+roc.cover$ENSO_Year<-factor(roc.cover$ENSO_Year, levels =
+                              c("No", "1982-1984", "1997-1998"))
+roc.cover$Thermal_regime<-factor(roc.cover$Thermal_regime, levels =
+                              c("Galapagos_Islands", "Thermally_Stable", "Upwelling", "Seasonal"))
+
+# Figure 3b
+Figure3b<-ggplot(roc.cover, aes(x=maxDHW, y=(Log_annual_rate_of_change),
+                                 fill=Thermal_regime, shape=ENSO_Year)) + 
+  ggtitle("b") +
+  scale_x_continuous(limits = c(0,30),
+                     breaks = seq(0,30, 5),
+                     expand = c(0.05 , 0.05),
+                      "Degree heating weeks (°C-weeks)")+
+  scale_y_continuous(limits = c(-1.7, 1),
+                     breaks = seq(-1.5,1, 0.5),
+    "Annual rate of change in coral cover")+
+  geom_point(size=3, alpha=0.5) +
+  geom_abline(slope = 0, intercept = 0, linetype=2)+
+  geom_vline(xintercept=4, linetype=2)+
+  geom_vline(xintercept = 8, linetype=2)+
+  theme(legend.position = "right", 
+        axis.text.x = element_text(angle = 0, vjust = 0.5))+
+  scale_fill_manual(values=c("#9e9ac893", "#feb24c93", "#fb6a4a93", "#a6d96a93"),
+                     labels=c("Equatorial upwelling", "Thermally stable", "Tropical upwelling", "Seasonal"))+
+  scale_shape_manual(values=c(21, 22, 24),
+                     labels=c("No ENSO", "1982-1984", "1997-1998"))+
+theme_bw() + theme(panel.grid.major = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  legend.text = element_text(size=8),
+                  legend.title = element_blank(),
+                  legend.position = c(0.65, 0.3))
+
+# Figure3b
+
 ```
 
-```{r, include = FALSE}
- dev.off() # reset parameters for next plot 
+```{r}
+
+grid.arrange(Figure3a, Figure3b, nrow = 1, widths = 2:1)
+ggsave(file="Figure_3.svg", dpi = 300, plot=grid.arrange(Figure3a, Figure3b, nrow = 1,
+widths = 2:1), width = 12, height = 4, units = "in")
+
 ```
+
 
 **FIGURE 3** Heat stress and its effect on coral cover across the ETP. **(a)** The sequence of yearly maximum DHW experienced by the best-represented individual coral reefs sites from 1982 to 2014. When cumulative thermal stress reach 4°C-weeks and 8°C-weeks or higher (horizontal dotted lines), bleaching is likely, as well as coral mortality from thermal stress (Liu et al., 2006), respectively. Although the thresholds were developed in seasonal systems, and are not universally applicable for equatorial regions, they still useful for separating responses into groups. **(b)** The association between the maximum DHW and the coral cover change at each of four thermal regimes (dot colors as Fig. 2). Each point (n = 133) represents the DHW and the coral cover annual rate of change per individual coral reef site. The horizontal dotted line divides the positive (> 0) and the negative (< 0) rate of change caused by coral growth or mortality, respectively. The vertical dotted line indicates the DHW thresholds of 4°C-weeks and 8°C-weeks, respectively. The vertical and horizontal dotted lines create four response quadrants: I) heat stress and positive coral cover change (resilient response), II) no heat stress and positive coral cover change, III) no heat stress and negative coral cover change, and IV) heat stress and negative coral cover change.
 
