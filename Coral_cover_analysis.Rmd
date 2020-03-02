@@ -470,7 +470,7 @@ summary(m.comp_ENSO.83_97, test = univariate())
 Figure2<-grid.arrange(ENSO, Model1_plot, arrangeGrob(
   Model2_plot, Model3b_plot, Model4b_plot, widths = c(3.9/12, 3.80/12, 4.30/12), ncol = 3),
              nrow=3) 
-#ggsave(file="Fig1_V7.svg", plot=Figure1, width=6.69, height=6.69)
+#ggsave(file="Fig1_V7.svg", plot=Figure2, width=6.69, height=6.69)
 
 ```
 
@@ -629,8 +629,8 @@ theme_bw() + theme(panel.grid.major = element_blank(),
 ```{r}
 
 grid.arrange(Figure3a, Figure3b, nrow = 1, widths = 2:1)
-ggsave(file="Figure_3.svg", dpi = 300, plot=grid.arrange(Figure3a, Figure3b, nrow = 1,
-widths = 2:1), width = 12, height = 4, units = "in")
+#ggsave(file="Figure_3.svg", dpi = 300, plot=grid.arrange(Figure3a, Figure3b, nrow = 1,
+#widths = 2:1), width = 12, height = 4, units = "in")
 
 ```
 
