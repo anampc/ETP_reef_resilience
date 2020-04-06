@@ -5,6 +5,7 @@ date: "January 29, 2020"
 output:
   html_document:
     toc: true
+    df_print: paged
     theme: united
     
 ---
@@ -20,8 +21,8 @@ knitr::opts_chunk$set(
 
  R Code for GCB-19-0810
  
- * Title: Coral reef resilience to thermal stress in the Eastern Tropical Pacific
- * Authors: Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro & James W. Porter
+ * **Title:** Coral reef resilience to thermal stress in the Eastern Tropical Pacific
+ * **Authors:** Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro & James W. Porter
  * Version 3.1
 
 
@@ -169,7 +170,7 @@ library(nlme)
 
 ### Model 1: All years 1970_2014 
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 # All years 1970_2014 
   model1 <- lme(
     Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=aggr.region)
@@ -213,7 +214,7 @@ Model1_plot
 
 ### Model 2: Time-interval 1 - ENSO.73_82
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 # Time-interval 1 - ENSO.73_82
     model2 <- lme(Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=ENSO.73_82) 
     summary(model2)
@@ -255,7 +256,7 @@ Model2_plot
 
 ### Model 3: Time-interval 2 - ENSO.83_97
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 # Time-interval 3 - ENSO.83_97
     model3 <- lme(Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=ENSO.83_97) 
     summary(model3)
@@ -313,7 +314,7 @@ pred_3 <- predict(model3, newdata=NewData_3, level=0, asList = FALSE)
 
 ### Model 4: Time-interval 3 - ENSO.98_14
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 # Time-interval 4 - ENSO.98_14
     model4 <- lme(Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=ENSO.98_14) 
     summary(model4)
@@ -370,7 +371,7 @@ pred_4 <- predict(model4, newdata=NewData_4, level=0)
 
 ### Model 5: Time-interval 4 - ENSO.83_14
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 # Time-interval 5 - ENSO.83_14  
     model5 <- lme(Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=ENSO.83_14) 
     summary(model5)
@@ -412,10 +413,10 @@ pred_5 <- predict(model5, newdata=NewData_5, level=0) # level zero=population pr
           geom_line(data=NewData_5, aes(y=predict(model5, level=0, newdata=NewData_5)), size=2)+
           theme(axis.text.y=element_blank(),  
                     axis.title.y=element_blank(),
-                    legend.position = c(0.58, -0.3),
+                    legend.position = "right",
                     legend.title=element_blank(), 
                     legend.text=element_text(size=6),
-                    legend.direction="horizontal")+
+                    legend.direction="vertical")+
           scale_fill_manual(values=my_colours) +
           scale_colour_manual(values=my_colours)+    
           labs(title="Model 5")
@@ -465,16 +466,16 @@ summary(m.comp_ENSO.83_97, test = univariate())
 
 ### FIGURE 2
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, fig.height = 9, fig.width = 8}
 
 Figure2<-grid.arrange(ENSO, Model1_plot, arrangeGrob(
   Model2_plot, Model3b_plot, Model4b_plot, widths = c(3.9/12, 3.80/12, 4.30/12), ncol = 3),
              nrow=3) 
-#ggsave(file="Fig1_V7.svg", plot=Figure2, width=6.69, height=6.69)
+#ggsave(file="Fig1_V7.PNg", plot=Figure2, width=6.69, height=6.69)
 
 ```
 
-**FIGURE 2**  Illustration of the influence of most intense ENSO events on the coral cover in the ETP. **(a)** The upper panel indicates the positive (red) and negative (blue) SST anomalies in the Niño-3 region during 1971–2014 (NOAA Climate Prediction Center’s Extended Reconstructed Sea Surface Temperature ERSSTv5). The vertical orange bars indicate the strongest El Niño events. **(b)** The panel displays, at the horizontal axis, the 44-year live-coral cover aggregated at the region scale (n = 202) for ETP coral reefs with its fitted linear trend (gray dashed band). The fitted smooth line trend represents the long-term cycles of loss and recovery (blue line with the best polynomial fit with a 95% confidence level interval and a span = 0.2). The vertical axis shows the live coral cover. Box plots describe the minimum, maximum, interquartile ranges and median values of live-coral cover for each year. Notice the abrupt decrease in coral cover after 1982–83 El Niño; a smaller decline occurred after 1997–98. Random intercepts and random slopes models for the time-intervals: **(c)** 1974–1982, **(d)**1983–1997, and (e)1998–2014.
+**FIGURE 2**  Illustration of the influence of most intense ENSO events on the coral cover in the ETP. **(a)** The upper panel indicates the positive (red) and negative (blue) SST anomalies in the Niño-3 region during 1971–2014 (NOAA Climate Prediction Center’s Extended Reconstructed Sea Surface Temperature ERSSTv5). The vertical orange bars indicate the strongest El Niño events. **(b)** The panel displays, at the horizontal axis, the 44-year live-coral cover aggregated at the region scale (n = 202) for ETP coral reefs with its fitted linear trend (gray dashed band). The fitted smooth line trend represents the long-term cycles of loss and recovery (blue line with the best polynomial fit with a 95% confidence level interval and a span = 0.2). The vertical axis shows the live coral cover. Box plots describe the minimum, maximum, interquartile ranges and median values of live-coral cover for each year. Notice the abrupt decrease in coral cover after 1982–83 El Niño; a smaller decline occurred after 1997–98. Random intercepts and random slopes models for the time-intervals: **(c)** 1974–1982, **(d)** 1983–1997, and **(e)** 1998–2014.
 
 
 # 2. DHW and coral cover change
@@ -517,7 +518,9 @@ library(data.table)
 ```{r}
 
 dhw.best.represented$Thermal_regime<-factor(dhw.best.represented$Site, levels =
-                              c("Darwin_North_Anchorage",  "Cano_island", "Uva_Island", "Gorgona_Island", "Bahia_Banderas"))
+                              c("Cano_island", "Uva_Island", "Gorgona_Island", 
+                                "Darwin_North_Anchorage", 
+                                "Bahia_Banderas"))
 
 
 # Figure 3a
@@ -526,7 +529,8 @@ Figure3a<-ggplot(dhw.best.represented, aes(x=Year, y=maxDHW,
   theme(panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(), 
         axis.text.x = element_text(angle = 90, vjust = 0.5),
-        legend.position = c(0.8,0.8),
+        legend.background = element_blank(),
+        legend.position = c(0.77,0.77),
         legend.title = element_blank(),
         legend.text = element_text(size=8))+
   ggtitle("a") +
@@ -543,11 +547,11 @@ Figure3a<-ggplot(dhw.best.represented, aes(x=Year, y=maxDHW,
   geom_hline(yintercept=4, linetype=2)+
   geom_hline(yintercept = 8, linetype=2)+
   geom_line() +
-  scale_colour_manual(values=c("#9e9ac8",  "#8c2d04","#feb24c", "#fb6a4a", "#a6d96a"),
-                    labels=c("Equatorial upwelling - Darwin Island",
-                              "Thermally stable - Caño Island", 
+  scale_colour_manual(values=c("#8c2d04","#feb24c", "#fb6a4a", "#9e9ac8", "#a6d96a"),
+                    labels=c( "Thermally stable - Caño Island", 
                               "Thermally stable - Uva Island", 
                               "Tropical upwelling - Gorgona Island",
+                              "Equatorial upwelling - Darwin Island",
                               "Seasonal - Bahía Banderas"))
 ```
 
@@ -593,7 +597,8 @@ r.squaredGLMM(model6)   #  returns the marginal and the conditional R2
 roc.cover$ENSO_Year<-factor(roc.cover$ENSO_Year, levels =
                               c("No", "1982-1984", "1997-1998"))
 roc.cover$Thermal_regime<-factor(roc.cover$Thermal_regime, levels =
-                              c("Galapagos_Islands", "Thermally_Stable", "Upwelling", "Seasonal"))
+                              c("Thermally stable", "Equatorial upwelling",
+                                "Tropical upwelling", "Seasonal"))
 
 # Figure 3b
 Figure3b<-ggplot(roc.cover, aes(x=maxDHW, y=(Log_annual_rate_of_change),
@@ -610,32 +615,32 @@ Figure3b<-ggplot(roc.cover, aes(x=maxDHW, y=(Log_annual_rate_of_change),
   geom_abline(slope = 0, intercept = 0, linetype=2)+
   geom_vline(xintercept=4, linetype=2)+
   geom_vline(xintercept = 8, linetype=2)+
-  theme(legend.position = "right", 
-        axis.text.x = element_text(angle = 0, vjust = 0.5))+
-  scale_fill_manual(values=c("#9e9ac893", "#feb24c93", "#fb6a4a93", "#a6d96a93"),
-                     labels=c("Equatorial upwelling", "Thermally stable", "Tropical upwelling", "Seasonal"))+
+  scale_fill_manual(values=c("#feb24c93", "#9e9ac893", "#fb6a4a93", "#a6d96a93"),
+                    labels=c( "Thermally stable", "Equatorial upwelling", "Tropical upwelling", "Seasonal"))+
   scale_shape_manual(values=c(21, 22, 24),
                      labels=c("No ENSO", "1982-1984", "1997-1998"))+
 theme_bw() + theme(panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank(),
                   legend.text = element_text(size=8),
                   legend.title = element_blank(),
-                  legend.position = c(0.65, 0.3))
+                  #legend.position = c(0.65, 0.3),
+                  legend.position = "right",
+                  legend.background = element_blank())
 
 # Figure3b
 
 ```
 
-```{r}
+```{r, fig.height = 3.5, fig.width = 9.5}
 
-grid.arrange(Figure3a, Figure3b, nrow = 1, widths = 2:1)
-#ggsave(file="Figure_3.svg", dpi = 300, plot=grid.arrange(Figure3a, Figure3b, nrow = 1,
-#widths = 2:1), width = 12, height = 4, units = "in")
+grid.arrange(Figure3a, Figure3b, nrow = 1, widths = c(3/5, 2/5))
+# ggsave(file="Figure_3.svg", dpi = 300, 
+  # plot=grid.arrange(Figure3a,, Figure3b, nrow = 1, widths = c(3/5, 2/5)), width = 12, height = 4, units = "in")
 
 ```
 
 
-**FIGURE 3** Heat stress and its effect on coral cover across the ETP. **(a)** The sequence of yearly maximum DHW experienced by the best-represented individual coral reefs sites from 1982 to 2014. When cumulative thermal stress reach 4°C-weeks and 8°C-weeks or higher (horizontal dotted lines), bleaching is likely, as well as coral mortality from thermal stress (Liu et al., 2006), respectively. Although the thresholds were developed in seasonal systems, and are not universally applicable for equatorial regions, they still useful for separating responses into groups. **(b)** The association between the maximum DHW and the coral cover change at each of four thermal regimes (dot colors as Fig. 2). Each point (n = 133) represents the DHW and the coral cover annual rate of change per individual coral reef site. The horizontal dotted line divides the positive (> 0) and the negative (< 0) rate of change caused by coral growth or mortality, respectively. The vertical dotted line indicates the DHW thresholds of 4°C-weeks and 8°C-weeks, respectively. The vertical and horizontal dotted lines create four response quadrants: I) heat stress and positive coral cover change (resilient response), II) no heat stress and positive coral cover change, III) no heat stress and negative coral cover change, and IV) heat stress and negative coral cover change.
+**FIGURE 3** Heat stress and its effect on coral cover across the ETP. **a** The sequence of yearly maximum DHW experienced by the best-represented individual coral reefs sites from 1982 to 2014. When cumulative thermal stress reach 4°C-weeks and 8°C-weeks or higher (horizontal dotted lines), bleaching is likely, as well as coral mortality from thermal stress (Liu et al., 2006), respectively. Although the thresholds were developed in seasonal systems, and are not universally applicable for equatorial regions, they still useful for separating responses into groups. **b** The association between the maximum DHW and the coral cover change at each of four thermal regimes (dot colors as Fig. 2). Each point (n = 133) represents the DHW and the coral cover annual rate of change per individual coral reef site. The horizontal dotted line divides the positive (> 0) and the negative (< 0) rate of change caused by coral growth or mortality, respectively. The vertical dotted line indicates the DHW thresholds of 4°C-weeks and 8°C-weeks, respectively. The vertical and horizontal dotted lines create four response quadrants: I) heat stress and positive coral cover change (resilient response), II) no heat stress and positive coral cover change, III) no heat stress and negative coral cover change, and IV) heat stress and negative coral cover change.
 
 ## Descriptive statistics heat stress
 
@@ -651,6 +656,36 @@ negative.rate <- subset(no.stress, Log_annual_rate_of_change < 0)   #subset of R
 length(negative.rate$Log_annual_rate_of_change)                     # Number of observations in 
 ```
 
+No stress thermally stable
+
+```{r}
+no.stress.Thermally_Stable <- subset(no.stress, Thermal_regime == "Thermally stable")   
+positive.rate <- subset(no.stress.Thermally_Stable, Log_annual_rate_of_change > 0)  
+negative.rate <- subset(no.stress.Thermally_Stable, Log_annual_rate_of_change < 0)  
+length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
+
+```
+
+No stress tropical upwelling
+
+```{r}
+no.stress.upwelling <- subset(no.stress, Thermal_regime == "Tropical upwelling")
+positive.rate <- subset(no.stress.upwelling, Log_annual_rate_of_change > 0)  
+negative.rate <- subset(no.stress.upwelling, Log_annual_rate_of_change < 0)  
+length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
+
+```
+
+No stress equatorial upwelling
+
+```{r}
+no.stress.Galapagos_Islands <- subset(no.stress, Thermal_regime == "Equatorial upwelling") 
+positive.rate <- subset(no.stress.Galapagos_Islands, Log_annual_rate_of_change > 0)  
+negative.rate <- subset(no.stress.Galapagos_Islands, Log_annual_rate_of_change < 0)  
+length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
+
+```
+
 No stress seasonal
 
 ```{r}
@@ -658,36 +693,6 @@ no.stress.seasonal <- subset(no.stress, Thermal_regime == "Seasonal")
 positive.rate <- subset(no.stress.seasonal, Log_annual_rate_of_change > 0)  
 negative.rate <- subset(no.stress.seasonal, Log_annual_rate_of_change < 0)  
 length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)   
-
-```
-
-No stress upwelling
-
-```{r}
-no.stress.upwelling <- subset(no.stress, Thermal_regime == "Upwelling")
-positive.rate <- subset(no.stress.upwelling, Log_annual_rate_of_change > 0)  
-negative.rate <- subset(no.stress.upwelling, Log_annual_rate_of_change < 0)  
-length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
-
-```
-
-No stress thermally stable
-
-```{r}
-no.stress.Thermally_Stable <- subset(no.stress, Thermal_regime == "Thermally_Stable")   
-positive.rate <- subset(no.stress.Thermally_Stable, Log_annual_rate_of_change > 0)  
-negative.rate <- subset(no.stress.Thermally_Stable, Log_annual_rate_of_change < 0)  
-length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
-
-```
-
-No stress Galapagos
-
-```{r}
-no.stress.Galapagos_Islands <- subset(no.stress, Thermal_regime == "Galapagos_Islands") 
-positive.rate <- subset(no.stress.Galapagos_Islands, Log_annual_rate_of_change > 0)  
-negative.rate <- subset(no.stress.Galapagos_Islands, Log_annual_rate_of_change < 0)  
-length(positive.rate$Log_annual_rate_of_change)/length(negative.rate$Log_annual_rate_of_change)  
 
 ```
 
@@ -785,22 +790,25 @@ legend( #"bottomright",
 
 Temporal variation in the live coral cover for 1970–2014.
 
-* (a) Tropical upwelling regime. 
-* (b) Seasonal regime. 
-* (c) Thermally stable regime. 
-* (d) Equatorial upwelling regime. 
+* (a) Thermally stable regime. 
+* (b) Tropical upwelling regime.
+* (c) Equatorial upwelling regime. 
+* (d) Seasonal regime. 
 
 The smooth line represents the best fit to the time series with a 95% confidence level interval and a span = 0.3.
 
-```{r, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE, fig.height = 8.5, fig.width = 7.5}
 library(ggplot2)
 library(lemon)
 
 aggr.region_S2<-aggr.region
+summary(aggr.region_S2$Thermal_regime)
+
 aggr.region_S2$Thermal_regime<-factor(aggr.region_S2$Thermal_regime, 
-                                  levels=c("Tropical upwelling", "Seasonal", 
-                                           "Thermally stable", "Equatorial upwelling"),
-                                  labels = c ("a", "b", "c", "d"))
+                                  levels=c("Thermally stable", "Tropical upwelling",
+                                            "Equatorial upwelling", "Seasonal"),
+                                  labels = c ("a. Thermally stable", "b. Tropical upwelling",
+                                              "c. Equatorial upwelling", "d. Seasonal"))
                                    
 
 FigureS2<-ggplot(aggr.region_S2, aes(x=Year, y=Coral_cover)) + 
@@ -822,27 +830,29 @@ FigureS2
 
 ```
 
-**FIGURE S2** Temporal variation in the live coral cover for 1970–2014. **(a)** Tropical upwelling regime (n = 75). **(b)** Seasonal regime (n = 28). **(c)** Thermally stable regime (n = 74). **(d)** Equatorial upwelling regime (n = 25). The smooth line represents the best fit to the time series with a 95% confidence level interval and a span = 0.3.
+**FIGURE S2** Temporal variation in the live coral cover for 1970–2014. **(a)** Thermally stable regime (n = 75). **(b)** Tropical upwelling regime (n = 75).  **(c)** Equatorial upwelling regime (n = 25). **(d)** Seasonal regime (n = 28).  The smooth line represents the best fit to the time series with a 95% confidence level interval and a span = 0.3.
 
-```{r}
-FigureS2b<-ggplot(cover, aes(x=Year, y=Coral_cover)) + 
+```{r, fig.height = 9, fig.width = 7.5}
+FigureS2b<-ggplot(aggr.region_S2, aes(x=Year, y=Coral_cover)) + 
   theme_bw() + theme(panel.border = element_blank(),   # set ggplot to white background
                               panel.grid.major = element_blank(),
                               panel.grid.minor = element_blank(), 
                               axis.line = element_line(),
                               strip.background = element_blank(),
                               strip.text = element_text(face="bold",hjust = 0, vjust = -1))+
-  geom_point(aes(colour=Region)) +
-  geom_smooth (span = 0.3, colour="gray") +
+  geom_smooth (span = 0.3, colour="gray") +  geom_point(aes(colour=Region)) +
   scale_x_continuous(limits=c(1970, 2014), 
                      breaks = seq(1970, 2014, by=5),
                      expand = c(0.01, 0.01), "Year") +
   scale_y_continuous(limits=c(-19, 91), expand = c(0, 0), "Live coral cover (%)") +
   facet_wrap(Thermal_regime~., ncol=1, scales = "free_x", strip.position ="top") +
-  theme(legend.position = "bottom", legend.direction = "horizontal" )
+  theme(legend.position = "right", legend.direction = "vertical" )
 
 FigureS2b
 ```
+
+**FIGURE S2** Temporal variation in the live coral cover for 1970–2014. **(a)** Thermally stable regime (n = 75). **(b)** Tropical upwelling regime (n = 75).  **(c)** Equatorial upwelling regime (n = 25). **(d)** Seasonal regime (n = 28).  The smooth line represents the best fit to the time series with a 95% confidence level interval and a span = 0.3. Colors represent the regions sampled in each thermal regime.
+
 
 # 4. Revision figures
 
@@ -856,15 +866,18 @@ Uva_Island <- subset(aggr.site, Site == "Uva_Island")
 Gorgona <-subset(aggr.site, Site == "La_Azufrada")
 Cano_island <-subset(aggr.site, Site == "Cano_island")
 EGI <-subset(aggr.site, Region == "Eastern_Galapagos_Islands")
-NGI <-subset(aggr.site, Region == "Northern_Galapagos_Islands")
 
-Monitoring_sites <- rbind(Uva_Island,Gorgona,Cano_island,EGI,NGI)
+Monitoring_sites <- rbind(Uva_Island,Gorgona,Cano_island,EGI)
+
+Monitoring_sites$Thermal_regime<-factor(Monitoring_sites$Thermal_regime,
+                  levels=c("Thermally stable", "Tropical upwelling",
+                           "Equatorial upwelling", "Seasonal"))
 
 ```
 
 ### Model 7: Only monitored sites
 
-```{r}
+```{r, fig.show='hold', out.width="50%", fig.height = 3.8, fig.width = 4.5}
 model7 <- lme(Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region, data=Monitoring_sites) 
 summary(model7)
 anova(model7)
@@ -881,15 +894,15 @@ plot(model7, Coral_cover ~ fitted(.) | Thermal_regime, abline = c(0,1))
 
 ```
 
+
 ### FIGURE S3: Data only for four best monitoring sites
 
-```{r}
+```{r, fig.height = 10, fig.width = 7.5}
 FigureS3 <-ggplot(Monitoring_sites, aes(x=Year, y=Coral_cover)) +
   geom_boxplot(aes(group=Year), outlier.shape = NA) +
   stat_boxplot(aes(group=Year), geom = 'errorbar')+
   geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
-  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
-  scale_y_continuous("Live coral cover (%)", limits = c(-15, 95), 
+  scale_y_continuous("Live coral cover (%)", limits = c(-10, 95), 
                      breaks = seq(0, 90, by=20), expand = c(0,0))+
   scale_x_continuous("", limits = c(1969, 2015),
                      breaks = seq(1970, 2014, by=2), expand = c(0,0))+
@@ -897,14 +910,25 @@ FigureS3 <-ggplot(Monitoring_sites, aes(x=Year, y=Coral_cover)) +
   annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
   annotate("rect", xmin = 1972, xmax = 1973, ymin = 0, ymax = 80,  alpha = .2, fill="red")
 
-FigureS3
+#FigureS3
 
-FigureS3b<- FigureS3 + geom_point(aes(colour=Location), alpha=0.4) +
-  theme(legend.position = "bottom")
-FigureS3b
+FigureS3a<- FigureS3 + geom_point(aes(colour=Thermal_regime), alpha=0.8) +
+  theme(legend.position = "bottom") + ggtitle("a") +
+    scale_colour_manual(values=my_colours) +
+  geom_smooth(span = 0.3, se=T, colour="darkgray")
+#FigureS3a
 
-#ggsave(file="FigS3.png", plot=FigureS3, width=6.69, height=4)
-#ggsave(file="FigS3b.png", plot=FigureS3b, width=6.69, height=4.69)
+FigureS3b<-FigureS3 + geom_point(aes(colour=Location), alpha=0.8) +
+  facet_wrap(~Region)+
+  geom_smooth(span = 0.3, se=F, colour="darkgray") +
+  ggtitle("b") + theme(legend.position = "bottom") 
+#FigureS3b
+
+FigureS3_all<-grid.arrange(arrangeGrob(FigureS3a,FigureS3b,
+                                       heights=c(1.2/3, 1.8/3)))
+
+
+#ggsave(file="FigS3.svg", plot=FigureS3_all, width=6.69, height=7.69)
 
 ```
 
@@ -912,49 +936,16 @@ FigureS3b
 
 Model 1: All years (1970_2014) removing each termal regime 
 
-* Tropical upwelling
+
+* Remove thermally stable
 
 ```{r}
-Model1_NoEquatorial_Upwelling <- ggplot(data=subset(aggr.region, Thermal_regime!="Tropical upwelling"), aes(x=Year, y=Coral_cover)) +
-  geom_boxplot(aes(group=Year), outlier.shape = NA) +
-  stat_boxplot(aes(group=Year), geom = 'errorbar')+
-  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
-  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
-  #geom_point(aes(colour=Thermal_regime), alpha=0.5) +
-  scale_y_continuous("Live coral cover (%)", limits = c(-5, 90), 
-                     breaks = seq(0, 90, by=20), expand = c(0,0))+
-  scale_x_continuous("", limits = c(1969, 2015),
-                     breaks = seq(1970, 2014, by=2), expand = c(0,0))+
-  scale_color_manual(values=my_colours) + labs(title="a")+
-  #annotate("text", x = 1983, y = 70, label = "*", size=8)+
-  annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
-  annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
-  annotate("rect", xmin = 1972, xmax = 1973, ymin = 0, ymax = 80,  alpha = .2, fill="red")
-#Model1_NoEquatorial_Upwelling
+ model1_Model1_NoThermallyStable <- lme(
+    Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region,
+    data=subset(aggr.region, Thermal_regime!="Thermally stable"))
+  summary(model1_Model1_NoThermallyStable)
+  anova(model1_Model1_NoThermallyStable)
 ```
-
-* Seasonal
-
-```{r}
-Model1_NoSeasonal <- ggplot(data=subset(aggr.region, Thermal_regime!="Seasonal"), aes(x=Year, y=Coral_cover)) +
-  geom_boxplot(aes(group=Year), outlier.shape = NA) +
-  stat_boxplot(aes(group=Year), geom = 'errorbar')+
-  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
-  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
-  #geom_point(aes(colour=Thermal_regime), alpha=0.5) +
-  scale_y_continuous("Live coral cover (%)", limits = c(-5, 90),
-                     breaks = seq(0, 90, by=20), expand = c(0,0))+
-  scale_x_continuous("", limits = c(1969, 2015),
-                     breaks = seq(1970, 2014, by=2), expand = c(0,0))+
-  scale_color_manual(values=my_colours) + labs(title="b")+
-  #annotate("text", x = 1983, y = 70, label = "*", size=8)+
-  annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
-  annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
-  annotate("rect", xmin = 1972, xmax = 1973, ymin = 0, ymax = 80,  alpha = .2, fill="red")
-#Model1_NoSeasonal
-```
-
-* Thermally stable
 
 ```{r}
 Model1_NoThermallyStable <- ggplot(data=subset(aggr.region, Thermal_regime!="Thermally stable"), aes(x=Year, y=Coral_cover)) +
@@ -967,7 +958,7 @@ Model1_NoThermallyStable <- ggplot(data=subset(aggr.region, Thermal_regime!="The
                      breaks = seq(0, 90, by=20), expand = c(0,0))+
   scale_x_continuous("", limits = c(1969, 2015),
                      breaks = seq(1970, 2014, by=2), expand = c(0,0))+
-  scale_color_manual(values=my_colours) + labs(title="c")+
+  scale_color_manual(values=my_colours) + labs(title="a")+
   #annotate("text", x = 1983, y = 70, label = "*", size=8)+
   annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
   annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
@@ -975,7 +966,44 @@ Model1_NoThermallyStable <- ggplot(data=subset(aggr.region, Thermal_regime!="The
 # Model1_NoThermallyStable
 ```
 
-* Equatorial upwelling
+* Remove tropical upwelling
+
+```{r}
+ model1_Model1_NoTropical_Upwelling <- lme(
+    Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region,
+    data=subset(aggr.region, Thermal_regime!="Tropical upwelling"))
+  summary(model1_Model1_NoTropical_Upwelling)
+  anova(model1_Model1_NoTropical_Upwelling)
+```
+
+```{r}
+Model1_NoTropical_Upwelling <- ggplot(data=subset(aggr.region, Thermal_regime!="Tropical upwelling"), aes(x=Year, y=Coral_cover)) +
+  geom_boxplot(aes(group=Year), outlier.shape = NA) +
+  stat_boxplot(aes(group=Year), geom = 'errorbar')+
+  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
+  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
+  #geom_point(aes(colour=Thermal_regime), alpha=0.5) +
+  scale_y_continuous("Live coral cover (%)", limits = c(-5, 90), 
+                     breaks = seq(0, 90, by=20), expand = c(0,0))+
+  scale_x_continuous("", limits = c(1969, 2015),
+                     breaks = seq(1970, 2014, by=2), expand = c(0,0))+
+  scale_color_manual(values=my_colours) + labs(title="b")+
+  #annotate("text", x = 1983, y = 70, label = "*", size=8)+
+  annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
+  annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
+  annotate("rect", xmin = 1972, xmax = 1973, ymin = 0, ymax = 80,  alpha = .2, fill="red")
+#Model1_NoTropical_Upwelling
+```
+
+* Remove equatorial upwelling
+
+```{r}
+ model1_Model1_NoEquatorialUpwelling <- lme(
+    Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region,
+    data=subset(aggr.region, Thermal_regime!="Equatorial upwelling"))
+  summary(model1_Model1_NoEquatorialUpwelling)
+  anova(model1_Model1_NoEquatorialUpwelling)
+```
 
 ```{r}
 Model1_No_EqUpwelling <- ggplot(data=subset(aggr.region, Thermal_regime!="Equatorial upwelling"), aes(x=Year, y=Coral_cover)) +
@@ -988,7 +1016,7 @@ Model1_No_EqUpwelling <- ggplot(data=subset(aggr.region, Thermal_regime!="Equato
                      breaks = seq(0, 90, by=20), expand = c(0,0))+
   scale_x_continuous("", limits = c(1969, 2015),
                      breaks = seq(1970, 2014, by=2), expand = c(0,0))+
-  scale_color_manual(values=my_colours) + labs(title="d")+
+  scale_color_manual(values=my_colours) + labs(title="c")+
   #annotate("text", x = 1983, y = 70, label = "*", size=8)+
   annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
   annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
@@ -996,18 +1024,45 @@ Model1_No_EqUpwelling <- ggplot(data=subset(aggr.region, Thermal_regime!="Equato
 # Model1_No_EqUpwelling
 ```
 
+* Remove seasonal
+
+```{r}
+ model1_Model1_NoSeasonal <- lme(
+    Coral_cover ~ -1 + Thermal_regime * Year, random = ~1|Region,
+    data=subset(aggr.region, Thermal_regime!="Seasonal"))
+  summary(model1_Model1_NoSeasonal)
+  anova(model1_Model1_NoSeasonal)
+```
+
+```{r}
+Model1_NoSeasonal <- ggplot(data=subset(aggr.region, Thermal_regime!="Seasonal"), aes(x=Year, y=Coral_cover)) +
+  geom_boxplot(aes(group=Year), outlier.shape = NA) +
+  stat_boxplot(aes(group=Year), geom = 'errorbar')+
+  geom_smooth(method = lm, se=FALSE, linetype = "dashed", colour="red")+
+  geom_smooth(span = 0.2, se=T, colour="darkgray")+ 
+  #geom_point(aes(colour=Thermal_regime), alpha=0.5) +
+  scale_y_continuous("Live coral cover (%)", limits = c(-5, 90),
+                     breaks = seq(0, 90, by=20), expand = c(0,0))+
+  scale_x_continuous("", limits = c(1969, 2015),
+                     breaks = seq(1970, 2014, by=2), expand = c(0,0))+
+  scale_color_manual(values=my_colours) + labs(title="d")+
+  #annotate("text", x = 1983, y = 70, label = "*", size=8)+
+  annotate("rect", xmin = 1982, xmax = 1983, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
+  annotate("rect", xmin = 1997, xmax = 1998, ymin = 0, ymax = 80,  alpha = .2, fill="red")+
+  annotate("rect", xmin = 1972, xmax = 1973, ymin = 0, ymax = 80,  alpha = .2, fill="red")
+#Model1_NoSeasonal
+```
+
 ### FIGURE S4: Effect of thermal regime removal/addition 
 
 ```{r}
-FigureS4<-grid.arrange(Model1_NoEquatorial_Upwelling, Model1_NoSeasonal, 
-                       Model1_NoThermallyStable, Model1_No_EqUpwelling,
+FigureS4<-grid.arrange(Model1_NoThermallyStable, Model1_NoTropical_Upwelling,
+                       Model1_No_EqUpwelling, Model1_NoSeasonal, 
                        ncol = 2)
-#ggsave(file="FigS5.png", plot=FigureS5, width=6.69, height=6.69)
-#ggsave(file="FigS5.pdf", plot=FigureS5, width=6.69, height=6.69)
-
+#ggsave(file="FigS4.pdf", plot=FigureS5, width=6.69, height=6.69)
 ```
 
-**Figure S4:** Coral cover trends excluding **(a)** Thermally stable, **(b)** Tropical Upwelling, **(c)** Equatorial upwelling, and **(d)** Seasonal thermal regimes
+**Figure S4:** Coral cover trends excluding **(a)** Thermally stable, **(b)** Tropical upwelling, **(c)** Equatorial upwelling, and **(d)** Seasonal thermal regimes
 
 ## Add CI based on boostraping to fig 2?
 
@@ -1198,7 +1253,6 @@ Not enough data
    scale_color_manual(values=my_colours) +
    scale_fill_manual(values=my_colours)
    Model5b_plot
-  #ggsave(file="Model4b_plot.png", plot=Model4b_plot, width=4, height=4)
-  #ggsave(file="Model4b_plot.pdf", plot=Model4b_plot, width=4, height=4)
+  #ggsave(file="Model5b_plot.png", plot=Model4b_plot, width=4, height=4)
    
 ```
