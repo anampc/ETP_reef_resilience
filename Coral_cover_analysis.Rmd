@@ -124,7 +124,7 @@ ENSO
   summary(cover)
 ```
 
-## Data aggreation
+## Data aggregation
 
 * Hierarchically aggregate by Site, Location and Region
 * Create time-intervals, and
@@ -182,7 +182,7 @@ library(nlme)
   plot(ranef(model1))    # shows symmetrical scatter effects around zero
   plot(model1)           # plot residuals vs fitted
   resnorm1 <- resid(model1)
-  hist(resnorm1, xlab = "Residuals", main = "") # residuals are normally distributed?
+  hist(resnorm1, xlab = "Residuals", main = "") # are residuals normally distributed?
   coef.m1 <- as.data.frame(coef(summary(model1)))    # Coefficients of the model
   
   plot(model1, resid(., type = "p") ~ fitted(.) | Region, abline = 0)
@@ -431,7 +431,7 @@ pred_5 <- predict(model5, newdata=NewData_5, level=0) # level zero=population pr
 * Set up ANOVA model
 * Set up multiple comparisons object for all-pair comparisons
 * Multiple comparisons after GLM including interaction terms
-*Note:* Year is treated as a factor and not as a continous variable
+*Note:* Year is treated as a factor and not as a continuous variable
 
 ```{r, message=FALSE}
 library(multcomp)
@@ -641,7 +641,7 @@ grid.arrange(Figure3a, Figure3b, nrow = 1, widths = c(3/5, 2/5))
 ```
 
 
-**FIGURE 3** Heat stress and its effect on coral cover across the ETP. **a** The sequence of yearly maximum DHW experienced by the best-represented individual coral reefs sites from 1982 to 2014. When cumulative thermal stress reach 4°C-weeks and 8°C-weeks or higher (horizontal dotted lines), bleaching is likely, as well as coral mortality from thermal stress (Liu et al., 2006), respectively. Although the thresholds were developed in seasonal systems, and are not universally applicable for equatorial regions, they still useful for separating responses into groups. **b** The association between the maximum DHW and the coral cover change at each of four thermal regimes (dot colors as Fig. 2). Each point (n = 133) represents the DHW and the coral cover annual rate of change per individual coral reef site. The horizontal dotted line divides the positive (> 0) and the negative (< 0) rate of change caused by coral growth or mortality, respectively. The vertical dotted line indicates the DHW thresholds of 4°C-weeks and 8°C-weeks, respectively. The vertical and horizontal dotted lines create four response quadrants: I) heat stress and positive coral cover change (resilient response), II) no heat stress and positive coral cover change, III) no heat stress and negative coral cover change, and IV) heat stress and negative coral cover change.
+**FIGURE 3** Heat stress and its effect on coral cover across the ETP. **a** The sequence of yearly maximum DHW experienced by the best-represented individual coral reefs sites from 1982 to 2014. When cumulative thermal stress reaches 4°C-weeks and 8°C-weeks or higher (horizontal dotted lines), bleaching is likely, as well as coral mortality from thermal stress (Liu et al., 2006), respectively. Although the thresholds were developed in seasonal systems, and are not universally applicable for equatorial regions, they are still useful for separating responses into groups. **b** The association between the maximum DHW and the coral cover change at each of four thermal regimes (dot colors as Fig. 2). Each point (n = 133) represents the DHW and the coral cover annual rate of change per individual coral reef site. The horizontal dotted line divides the positive (> 0) and the negative (< 0) rate of change caused by coral growth or mortality, respectively. The vertical dotted line indicates the DHW thresholds of 4°C-weeks and 8°C-weeks, respectively. The vertical and horizontal dotted lines create four response quadrants: I) heat stress and positive coral cover change (resilient response), II) no heat stress and positive coral cover change, III) no heat stress and negative coral cover change, and IV) heat stress and negative coral cover change.
 
 ## Descriptive statistics heat stress
 
@@ -951,7 +951,7 @@ FigureS3_all<-grid.arrange(arrangeGrob(FigureS3a,FigureS3b,
 
 ## Data excluding one thermal regime from model 1
 
-Model 1: All years (1970_2014) removing each termal regime 
+Model 1: All years (1970_2014) removing each thermal regime 
 
 * Remove thermally stable
 
@@ -1081,9 +1081,9 @@ FigureS4<-grid.arrange(Model1_NoThermallyStable, Model1_NoTropical_Upwelling,
 **Figure S4:** Coral cover trends excluding **(a)** Thermally stable, **(b)** Tropical upwelling, **(c)** Equatorial upwelling, and **(d)** Seasonal thermal regimes
 
 
-## Add CI based on boostraping to fig 2?
+## Add CI based on bootstrapping to fig 2?
 
-To use "bootMer" models need to be run with lme4 instead nlme. Please check accuracy of the new (b) models
+To use "bootMer" models need to be run with *lme4* instead of *nlme*. Please check accuracy of the new (b) models
 
 ### Model 1b: All years 1970_2014 with lme4
 
@@ -1104,10 +1104,10 @@ To use "bootMer" models need to be run with lme4 instead nlme. Please check accu
 
 ```{r}
   # 2. Predict values:
-    pred1 <- predict(model1b,re.form = NA)
+    pred1 <- predict(model1b, re.form = NA)
 
   #3. Bootstrap CI:
-    boot1 <- bootMer(model1b, predict, nsim = 1000, re.form = NULL) # include random effects, reduce CI lot!
+    boot1 <- bootMer(model1b, predict, nsim = 1000, re.form = NULL) # include random effects, reduce CI a lot!
     std.err <- apply(boot1$t, 2, sd)
     CI.lo_1 <- pred1 - std.err*1.96
     CI.hi_1 <- pred1 + std.err*1.96
@@ -1146,15 +1146,15 @@ Not enough data
         (1|Region), data=ENSO.83_97, REML = FALSE)
   
     summary(model3b)
-    anova(model3b) # Thermal regime and its interaciton with year are significant 
-    ranova(model3b) # ramdom effects are not 
+    anova(model3b) # Thermal regime and its interaction with year are significant 
+    ranova(model3b) # random effects are not 
     drop1(model3b)
   
   # 2. Predict values:
-    pred3 <- predict(model3b,re.form = NA)
+    pred3 <- predict(model3b, re.form = NA)
 
   #3. Bootstrap CI:
-    boot3 <- bootMer(model3b, predict, nsim = 1000, re.form = NA) # No ramndom effects
+    boot3 <- bootMer(model3b, predict, nsim = 1000, re.form = NA) # No random effects
     std.err <- apply(boot3$t, 2, sd)
     CI.lo_3 <- pred3 - std.err*1.96
     CI.hi_3 <- pred3 + std.err*1.96
@@ -1195,15 +1195,15 @@ Not enough data
         (1|Region), data=ENSO.98_14, REML = FALSE)
   
     summary(model4b)
-    anova(model4b) # Thermal regime and its interaciton with year are significant 
-    ranova(model4b) # ramdom effects are significant
+    anova(model4b) # Thermal regime and its interaction with year are significant 
+    ranova(model4b) # random effects are significant
     drop1(model4b)
   
   # 2. Predict values:
-    pred4 <- predict(model4b,re.form = NA)
+    pred4 <- predict(model4b, re.form = NA)
 
   #3. Bootstrap CI:
-    boot4 <- bootMer(model4b, predict, nsim = 1000, re.form = NULL) # Include ramndom effects
+    boot4 <- bootMer(model4b, predict, nsim = 1000, re.form = NULL) # Include random effects
     std.err <- apply(boot4$t, 2, sd)
     CI.lo_4 <- pred4 - std.err*1.96
     CI.hi_4 <- pred4 + std.err*1.96
@@ -1240,15 +1240,15 @@ Not enough data
         (1|Region), data=ENSO.83_14, REML = FALSE)
   
     summary(model5b)
-    anova(model5b) # Thermal regime and its interaciton with year are significant 
-    ranova(model5b) # ramdom effects are significant
+    anova(model5b) # Thermal regime and its interaction with year are significant 
+    ranova(model5b) # random effects are significant
     drop1(model5b)
   
   # 2. Predict values:
     pred5 <- predict(model5b,re.form = NA)
 
   #3. Bootstrap CI:
-    boot5 <- bootMer(model5b, predict, nsim = 1000, re.form = NULL) # Include ramndom effects
+    boot5 <- bootMer(model5b, predict, nsim = 1000, re.form = NULL) # Include random effects
     std.err <- apply(boot5$t, 2, sd)
     CI.lo_5 <- pred5 - std.err*1.96
     CI.hi_5 <- pred5 + std.err*1.96
@@ -1274,10 +1274,10 @@ Not enough data
    
 ```
 
+
 # 5. Packages used
 
 ```{r}
 # Creates bibliography 
 #knitr::write_bib(c(.packages()), "packages.bib")
-
 ```
