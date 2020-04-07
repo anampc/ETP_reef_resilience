@@ -471,6 +471,7 @@ summary(m.comp_ENSO.83_97, test = univariate())
 Figure2<-grid.arrange(ENSO, Model1_plot, arrangeGrob(
   Model2_plot, Model3b_plot, Model4b_plot, widths = c(3.9/12, 3.80/12, 4.30/12), ncol = 3),
              nrow=3) 
+
 #ggsave(file="Fig1_V7.pdf", plot=Figure2, width=6.69, height=6.69)
 
 ```
@@ -591,7 +592,6 @@ r.squaredGLMM(model6)   #  returns the marginal and the conditional R2
 
 ### FIGURE 3b: Relationship of coral cover rate of change and thermal stress
 
-
 ```{r}
 
 roc.cover$ENSO_Year<-factor(roc.cover$ENSO_Year, levels =
@@ -623,19 +623,18 @@ theme_bw() + theme(panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank(),
                   legend.text = element_text(size=8),
                   legend.title = element_blank(),
-                  legend.position = c(0.67, 0.63),
+                  legend.position = c(0.68, 0.6),
                   #legend.position = "right",
                   legend.background = element_blank())
-
 # Figure3b
 
 ```
 
 ```{r, fig.height = 3.5, fig.width = 9.5}
 
-grid.arrange(Figure3a, Figure3b, nrow = 1, widths = c(3.5/5, 1.5/5))
-#ggsave(file="Figure_3.svg", dpi = 300, plot=grid.arrange(Figure3a, Figure3b, widths = c(3.5/5, 1.5/5), nrow = 1), 
-    #3width = 10, height = 3.6, units = "in")
+grid.arrange(Figure3a, Figure3b, nrow = 1, widths = c(3/5, 2/5))
+# ggsave(file="Figure_3.svg", dpi = 300, 
+# plot=grid.arrange(Figure3a, Figure3b, nrow = 1, widths = c(3/5, 2/5)), width = 12, height = 4, units = "in")
 
 ```
 
@@ -899,7 +898,6 @@ plot(model7, Coral_cover ~ fitted(.) | Thermal_regime, abline = c(0,1))
 ### FIGURE S3: Data only for four best monitoring sites
 
 ```{r, fig.height = 10, fig.width = 7.5}
-
 summary(Monitoring_sites$Region)
 Monitoring_sites$Region<-factor(Monitoring_sites$Region,
                   levels=c("Costa_Rica_Southern", "Gulf_of_Chiriqui",
@@ -908,6 +906,7 @@ Region.labels <- as_labeller(c(`Costa_Rica_Southern` = "Thermally stable",
                                `Gulf_of_Chiriqui` = "Thermally stable",
                                `Colombia` = "Tropical upwelling", 
                                `Eastern_Galapagos_Islands` = "Equatorial upwelling"))
+
 
 FigureS3 <-ggplot(Monitoring_sites, aes(x=Year, y=Coral_cover)) +
   geom_boxplot(aes(group=Year), outlier.shape = NA) +
@@ -937,7 +936,6 @@ FigureS3b<-FigureS3 + geom_point(aes(colour=Location), alpha=0.8) +
 
 FigureS3_all<-grid.arrange(arrangeGrob(FigureS3a,FigureS3b,
                                        heights=c(1.2/3, 1.8/3)))
-
 
 #ggsave(file="FigS3.svg", plot=FigureS3_all, width=6.69, height=7.69)
 
