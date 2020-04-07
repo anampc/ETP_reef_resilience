@@ -1274,10 +1274,10 @@ Not enough data
    
 ```
 
+
 # 5. Packages used
 
 ```{r}
 # Creates bibliography 
 #knitr::write_bib(c(.packages()), "packages.bib")
-
 ```
