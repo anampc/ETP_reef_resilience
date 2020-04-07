@@ -1,12 +1,14 @@
 ---
 title: "Coral cover analysis"
 author: "Mauricio Romero-Torres and Ana Palacio-Castro"
-date: "January 29, 2020"
+date: "`r Sys.Date()`"
 output:
   html_document:
     toc: true
     df_print: paged
     theme: united
+bibliography: packages.bib
+nocite: '@*'
     
 ---
 
@@ -22,7 +24,7 @@ knitr::opts_chunk$set(
  R Code for GCB-19-1650.R1
  
  * **Title:** Coral reef resilience to thermal stress in the Eastern Tropical Pacific
- * **Authors:** Mauricio Romero-Torres, Alberto Acosta, Eric A. Treml, Fernando A. Zapata, David A. Paz-García, Ana M. Palacio-Castro & James W. Porter
+ * **Authors:** Mauricio Romero-Torres, Alberto Acosta, Ana M. Palacio-Castro, Eric A. Treml, Fernando A. Zapata, David A. Paz-García & James W. Porter
  * Version 3.8
 
 
@@ -704,7 +706,9 @@ library(reshape2)
 library(RColorBrewer) 
 ```
 
-### FIGURE S1: Number of regionsand countries surveyed per year
+## Data sources 
+
+### FIGURE S1: Number of regions and countries surveyed per year
 
 ```{r}
 # Barplot number of surveys per year
@@ -784,6 +788,7 @@ legend( #"bottomright",
 
 **FIGURE S1** Regions and countries surveyed per year. **(a)** Number of regions surveyed per year in the ETP. Since 1970, the number of surveys in all regions increased by year up to a maximum of 10 regions surveyed in 2009. **(b)** Number of countries surveyed per year (Colombia, Costa Rica, Ecuador, El Salvador, France, Mexico, Nicaragua and Panama). Since 1970, the number of surveys in all the countries reached a maximum of 6 countries in 2009.
 
+## Divide data to test robustness of the patterns 
 
 ### FIGURE S2: Variation in the live coral cover for 1970–2014 per thermal regime 
 
@@ -854,9 +859,7 @@ FigureS2b
 **FIGURE S2** Temporal variation in the live coral cover for 1970–2014. **(a)** Thermally stable regime (n = 75). **(b)** Tropical upwelling regime (n = 75).  **(c)** Equatorial upwelling regime (n = 25). **(d)** Seasonal regime (n = 28).  The smooth line represents the best fit to the time series with a 95% confidence level interval and a span = 0.3. Colors represent the regions sampled in each thermal regime.
 
 
-# 4. Revision figures
-
-## Data only for four best monitoring sites
+### FIGURE S3: Data only for four best monitoring sites
 
 We found in published studies four comprehensive monitoring datasets for Uva Island, Gorgona Island, Costa Rica, and the Eastern and Northern Galapagos Islands, which correspond to well recognized long-term monitoring programs
 
@@ -894,8 +897,7 @@ plot(model7, Coral_cover ~ fitted(.) | Thermal_regime, abline = c(0,1))
 
 ```
 
-
-### FIGURE S3: Data only for four best monitoring sites
+### Figure S3: Data only for four best monitoring sites. a) pooled; b) by Location
 
 ```{r, fig.height = 10, fig.width = 7.5}
 summary(Monitoring_sites$Region)
@@ -941,10 +943,15 @@ FigureS3_all<-grid.arrange(arrangeGrob(FigureS3a,FigureS3b,
 
 ```
 
+
+**FIGURE S3** Temporal variation in the live coral cover for 1970–2014 for the four best-represented monitoring locations with its fitted linear trend (red dashed band). **(a)** Average live-coral cover trend for the four best-represented monitoring locations. **(b)** Comprehensive monitoring datasets were found in published studies for Costa Rica Southern (Caño Island), Gulf of Chiriquí (Uva Island), Colombia (Gorgona Island), and Eastern Galapagos Islands (Floreana, La Espanola, Marchena, San Cristobal,  Santa Cruz, and  Santa Fe).
+
+
+# 4. Extra figures / models
+
 ## Data excluding one thermal regime from model 1
 
 Model 1: All years (1970_2014) removing each termal regime 
-
 
 * Remove thermally stable
 
@@ -1072,6 +1079,7 @@ FigureS4<-grid.arrange(Model1_NoThermallyStable, Model1_NoTropical_Upwelling,
 ```
 
 **Figure S4:** Coral cover trends excluding **(a)** Thermally stable, **(b)** Tropical upwelling, **(c)** Equatorial upwelling, and **(d)** Seasonal thermal regimes
+
 
 ## Add CI based on boostraping to fig 2?
 
@@ -1264,4 +1272,12 @@ Not enough data
    Model5b_plot
   #ggsave(file="Model5b_plot.png", plot=Model4b_plot, width=4, height=4)
    
+```
+
+# 5. Packages used
+
+```{r}
+# Creates bibliography 
+#knitr::write_bib(c(.packages()), "packages.bib")
+
 ```
