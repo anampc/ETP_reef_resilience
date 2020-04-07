@@ -1,12 +1,14 @@
 ---
 title: "Coral cover analysis"
 author: "Mauricio Romero-Torres and Ana Palacio-Castro"
-date: "January 29, 2020"
+date: "`r Sys.Date()`"
 output:
   html_document:
     toc: true
     df_print: paged
     theme: united
+bibliography: packages.bib
+nocite: '@*'
     
 ---
 
@@ -1265,3 +1267,12 @@ Not enough data
   #ggsave(file="Model5b_plot.png", plot=Model4b_plot, width=4, height=4)
    
 ```
+
+# Packages used
+
+```{r}
+# Creates bibliography 
+#knitr::write_bib(c(.packages()), "packages.bib")
+
+```
+
